@@ -8,13 +8,16 @@ import FormattedDate from "@/components/FormattedDate.astro";
 import Tag from "@/components/Tag.astro";
 import Hero from "@/components/Hero.astro";
 import {excludeDrafts, sortBlogPosts} from "@/functions";
+import WhatIsNetGrad from "@/components/WhatIsNetGrad.astro";
+import FAQ from "@/components/FAQ.astro";
+import Features from "@/components/Features.astro";
 
-const posts = await getCollection('blog', excludeDrafts).then(sortBlogPosts)
 ---
-
 <RootLayout title={SITE_METADATA.title} description={SITE_METADATA.description}>
-    <Hero/>
-
-
-
+    <div class="flex flex-col gap-32">
+        <Hero/>
+        <WhatIsNetGrad/>
+        <Features/>
+        <FAQ>
+    </div>
 </RootLayout>
