@@ -5,8 +5,10 @@ tags: ['pppoe', 'mikrotik', 'point-to-point', 'layer-2']
 draft: false
 summary: Amankan jaringan kalian menggunakan PPPoE. Gini cara settingnya
 ---
+import TagLink from "@/components/TagLink.astro"
 
-PPPoE adalah protokol untuk menghubungkan perangkat ke internet melalui koneksi broadband seperti DSL atau kabel.
+
+PPPoE adalah protokol <TagLink tag='layer 2'/> untuk menghubungkan perangkat ke internet melalui koneksi broadband seperti DSL atau kabel.
 
 ## Kenapa PPPoE?
 
@@ -19,7 +21,8 @@ Dibandingkan IP statik, PPPoE itu jauh lebih aman. PPPoE juga performanya lebih 
 
 ### PPPoE dapat Mempercepat Jaringan
 PPPoE juga dapat mempercepat jaringan dengan menghapuskan atau mengeliminasi traffic broadcast ARP.
-Ini dikarenakan PPPoE menggunakan protokol `point to point` sehingga tidak ada lagi traffic broadcast ARP. Ini dapat mempercepat jaringan secara signifikan ketika jumlah device yang terkoneksi di suatu jaringan fisik sudah banyak.
+Ini dikarenakan PPPoE menggunakan protokol <TagLink tag='point to point'/> sehingga tidak ada lagi traffic broadcast ARP. Ini dapat mempercepat jaringan secara signifikan ketika jumlah device yang terkoneksi di suatu jaringan fisik sudah banyak.
+
 
 ## Dasar-Dasar PPPoE
 Pada dasarnya PPPoE itu bersifat server dan client. Dimana server PPPoE akan menjadi sumber internet. Client adalah pelanggan yang akan connect ke 
@@ -36,7 +39,7 @@ Netgrad akan mempermudah anda untuk mengatur koneksi client PPPoE anda. Segala a
 - Pembayaran
 - Durasi
 
-## Cara Setting PPPoE
+## Cara Setting PPPoE di <TagLink tag='Mikrotik'/>
 
 Untuk tutorial ini, topologi jaringan kita bentuknya seperti ini:
 <img src="/tutorials/images/topologi-pppoe-01.png"
@@ -47,7 +50,7 @@ Kita punya Mikrotik Server yang akan berfungsi sebagai PPPoE server dan sumber i
 
 Ada juga switch yang disambungkan ke mikrotik di interface Ether2.
 
-Kemsuk menu PPPudian Kita juga punya mikrotik yang berfungsi sebagai PPPoE client. Mikrotik ini disambungkan ke switch di interface Ether2
+Kemsuk menu PPPudian Kita juga punya mikrotik yang berfungsi sebagai PPPoE client. Mikrotik ini disambungkan ke switch di interface Ether1
 
 ### Setting PPPoE Server
 Mikrotik yang kita gunakan untuk server PPPoE sudah disetting basic config.
@@ -138,8 +141,8 @@ Setelah langkah langkah diatas kita lakukan di mikrotik PPPoE server, kita bisa 
      alt="menu-ppp"
      class='h-[32em]'/>
 
-#### 4. Pilih PPPoE Interface 
-Kita pilih interface menuju PPPoE server kita. Sesuai topologi kita, PPPoE server itu ada di interface ether2.
+#### 4. Tambah PPPoE Clinet ke Ether1 
+Kita pilih interface menuju PPPoE server kita. Sesuai topologi kita, PPPoE server itu ada di interface ether1.
 <img src="/tutorials/images/pppoe-client-add-menu-01.png"
      alt="menu-ppp"
      class='h-[32em]'/>

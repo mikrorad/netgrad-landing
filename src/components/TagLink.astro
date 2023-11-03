@@ -1,0 +1,15 @@
+---
+
+interface Props{
+    tag: string;
+}
+
+const { tag } = Astro.props;
+
+// repace space with dash
+const hrf = `/tags/${tag.replace(/\s/g, '-').toLowerCase()}`;
+---
+
+<a href={hrf}>
+    {tag}
+</a>
