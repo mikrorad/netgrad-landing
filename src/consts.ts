@@ -12,7 +12,6 @@ export const SITE_METADATA = {
     siteUrl: 'https://netgrad.id',
     siteRepo: '',
     siteLogo: '/static/images/logo.png',
-    socialBanner: '/static/images/twitter-card.png',
     locale: 'id-ID',
 };
 
