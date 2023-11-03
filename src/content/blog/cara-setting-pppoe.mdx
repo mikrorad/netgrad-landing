@@ -1,7 +1,7 @@
 ---
 title: Cara Setting PPPoE di Mikrotik
 date: '2023-11-02'
-tags: ['pppoe']
+tags: ['pppoe', 'mikrotik', 'point-to-point', 'layer-2']
 draft: false
 summary: Amankan jaringan kalian menggunakan PPPoE. Gini cara settingnya
 ---
@@ -12,4 +12,172 @@ PPPoE adalah protokol untuk menghubungkan perangkat ke internet melalui koneksi 
 
 PPPoE adalah standar industri untuk mengamankan koneksi internet untuk distribusi client ISP ataupun RT/RW net.
 
+### PPPoE untuk Mengamankan Jaringan
+Tugas Utama PPPoE adalah untuk mengamankan jaringan supaya tidak sembarang orang atau device bisa connect. Ini dicapai oleh enkripsi sinyal atau traffic jaringan menggunakan username dan password.
+
 Dibandingkan IP statik, PPPoE itu jauh lebih aman. PPPoE juga performanya lebih baik daripada solusi lainnya seperti  atau dial-up.
+
+### PPPoE dapat Mempercepat Jaringan
+PPPoE juga dapat mempercepat jaringan dengan menghapuskan atau mengeliminasi traffic broadcast ARP.
+Ini dikarenakan PPPoE menggunakan protokol `point to point` sehingga tidak ada lagi traffic broadcast ARP. Ini dapat mempercepat jaringan secara signifikan ketika jumlah device yang terkoneksi di suatu jaringan fisik sudah banyak.
+
+## Dasar-Dasar PPPoE
+Pada dasarnya PPPoE itu bersifat server dan client. Dimana server PPPoE akan menjadi sumber internet. Client adalah pelanggan yang akan connect ke 
+jaringan.
+
+Supaya client bisa connect ke jaringan client harus memasukkan username dan password yang tepat. Username dan password akan ditentukan oleh server
+. Atau jika anda menggunakan NetGrad, username dan password akan ditentukan di web dashboard NetGrad
+
+### Kenapa Menggunakan NetGrad untuk PPPoE
+
+Netgrad akan mempermudah anda untuk mengatur koneksi client PPPoE anda. Segala aspek management jaringan bisa diatur netgrad seperti:
+
+- Bandwidth
+- Pembayaran
+- Durasi
+
+## Cara Setting PPPoE
+
+Untuk tutorial ini, topologi jaringan kita bentuknya seperti ini:
+<img src="/tutorials/images/topologi-pppoe-01.png"
+     alt="topologi pppoe"
+     class='h-[32em]'/>
+
+Kita punya Mikrotik Server yang akan berfungsi sebagai PPPoE server dan sumber internet kita.
+
+Ada juga switch yang disambungkan ke mikrotik di interface Ether2.
+
+Kemsuk menu PPPudian Kita juga punya mikrotik yang berfungsi sebagai PPPoE client. Mikrotik ini disambungkan ke switch di interface Ether2
+
+### Setting PPPoE Server
+Mikrotik yang kita gunakan untuk server PPPoE sudah disetting basic config.
+
+#### 1. Masuk Menu PPP di winbox
+<img src="/tutorials/images/ppp-menu-01.png"
+     alt="menu-ppp"
+     class='h-[16em]'/>
+     
+#### 2. Masuk Menu PPPoE server
+<img src="/tutorials/images/pppoe-server-menu-01.png"
+     alt="menu-pppoe-server"
+     class='h-[10em]'/>
+#### 3. Tambah PPPoE server baru
+<img src="/tutorials/images/pppoe-server-add-01.png"
+     alt="menu-pppoe-server"
+     class='h-[10em]'/>
+#### 4. Tambah Service ke interface ether2
+
+Disini kita bisa pilih service name bebas dan kita tambahkan service ke interface ether2, sesuai topologi diatas.
+<img src="/tutorials/images/pppoe-server-configure-ether2-01.png"
+     alt="menu-pppoe-server"
+     class='h-[32em]'/>
+     
+Kemudian tekan tombol Apply, kemudian OK
+
+#### 5. Konfigurasi server selesai
+
+Setelah step-step diatas. Menu PPPoE server seharusnya nampak seperti ini. Ini tandanya settingan server sudah berhasil
+
+<img src="/tutorials/images/pppoe-server-done-01.png"
+     alt="menu-pppoe-server"
+     class='h-[12em]'/>
+     
+### Setting Username dan Password PPPoE
+Supaya client atau user bisa connect ke PPPoE server kita, tentunya harus ada username dan password.
+
+#### 1. Masuk Menu Secret
+<img src="/tutorials/images/ppp-secret-01.png"
+     alt="menu-ppp"
+     class='h-[12em]'/>
+
+#### 2. Tambah Secret Baru
+<img src="/tutorials/images/ppp-secret-add-01.png"
+     alt="menu-ppp"
+     class='h-[12em]'/>
+
+#### 3. Username dan Password
+Kemudian kita harus tambah username dan password yang akan kita gunakan.
+Patikan username dan password yang digunakan itu aman dan tidak gampang ditebak.
+<img src="/tutorials/images/ppp-secret-user-password-01.png"
+     alt="menu-ppp"
+     class='h-[32em]'/>
+
+#### 3. Local dan Remote Address
+Supaya client atau user bisa menggunakan internet lewat PPPoE kita. Kita harus tambahkan remote dan local address.
+<img src="/tutorials/images/ppp-remote-local-address-01.png"
+     alt="menu-ppp"
+     class='h-[32em]'/>
+
+`Local Address` adalah IP address yang akan ditempelkan ke interface yang ada di PPPoE server.
+
+`Remote Address` adalah IP address yang akan ditempelkan ke interface yang ada di PPPoE client.
+
+Setelah itu click tombol Apply, kemudian OK
+
+### Setting PPPoE Client
+Setelah langkah langkah diatas kita lakukan di mikrotik PPPoE server, kita bisa langsung remote menggunakan winbox mikrotik PPPoE client kita.
+
+
+#### 1. Buka Menu PPP
+<img src="/tutorials/images/ppp-menu-01.png"
+     alt="menu-ppp"
+     class='h-[16em]'/>
+
+#### 2. Buka Menu Interface
+<img src="/tutorials/images/ppp-interface-01.png"
+     alt="menu-ppp"
+     class='h-[16em]'/>
+
+#### 3. Tambah Interface Baru
+<img src="/tutorials/images/ppp-interface-add-01.png"
+     alt="menu-ppp"
+     class='h-[16em]'/>
+
+#### 4. Pilih PPPoE Client
+<img src="/tutorials/images/pppoe-client-add-01.png"
+     alt="menu-ppp"
+     class='h-[32em]'/>
+
+#### 4. Pilih PPPoE Interface 
+Kita pilih interface menuju PPPoE server kita. Sesuai topologi kita, PPPoE server itu ada di interface ether2.
+<img src="/tutorials/images/pppoe-client-add-menu-01.png"
+     alt="menu-ppp"
+     class='h-[32em]'/>
+
+#### 4. Buka Menu Dial-Out
+<img src="/tutorials/images/pppoe-client-dial-out-01.png"
+     alt="menu-ppp"
+     class='h-[8em]'/>
+     
+     
+#### 4. Masukkan Username dan Password
+<img src="/tutorials/images/pppoe-client-username-password-01.png"
+     alt="menu-ppp"
+     class='h-[28em]'/>
+     
+Kemudian tekan tombol Apply, kemudian OK
+
+#### 5. BERHASIL!!
+Kalau di menu PPP sudah muncul `pppoe-out` dan disampingnya ada flag `R`
+maka settingan PPPoE kita sudah berhasil
+<img src="/tutorials/images/pppoe-client-running-01.png"
+     alt="menu-ppp"
+     class='h-[12em]'/>
+     
+     
+     
+## Hasil Settingan PPPoE
+
+### Koneksi Internet
+Setelah kita setting PPPoE Client automatis akan mendapatkan koneksi internet
+
+<img src="/tutorials/images/ping-google-com.png"
+     alt="menu-ppp"
+     class='h-[12em]'/>
+
+### IP address
+Automatis PPPoE akan menambahkan IP address sesuai secret yang kita buat tadi.
+
+<img src="/tutorials/images/pppoe-client-ip-01.png"
+     alt="menu-ppp"
+     class='h-[12em]'/>

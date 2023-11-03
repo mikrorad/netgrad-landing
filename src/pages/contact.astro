@@ -57,7 +57,7 @@ import RootLayout from "@/layouts/RootLayout.astro";
 
           <div class="mt-4 grid">
             <button class="inline-flex justify-center items-center gap-x-3 text-center bg-blue-600 hover:bg-blue-700 border border-transparent text-sm lg:text-base text-white font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:focus:ring-offset-gray-800"
-                    id='submit'>
+                    id='submit' onclick="sendwebook()">
                 Kirim Pertanyaan
             </button>
           </div>
@@ -132,10 +132,9 @@ import RootLayout from "@/layouts/RootLayout.astro";
 <!-- End Contact Us -->
 
 <script>
-    const webhookUrl = "https://discord.com/api/webhooks/1170013072568623124/zNYjug5OqAJ8DluOkp8ijQDnjCI6x7ag9PxRl4QuwNtfovAANpPABhjAIdOMcEb7QVqK"
 
-    document.querySelector("#submit").addEventListener("click", function(e){
-        e.preventDefault();
+    const webhookUrl = "https://discord.com/api/webhooks/1170013072568623124/zNYjug5OqAJ8DluOkp8ijQDnjCI6x7ag9PxRl4QuwNtfovAANpPABhjAIdOMcEb7QVqK"
+    function sendWebhook(){
         const firstName = document.querySelector("#first-name").value;
         const lastName = document.querySelector("#last-name").value;
         const email = document.querySelector("#email").value;
@@ -175,6 +174,11 @@ import RootLayout from "@/layouts/RootLayout.astro";
         })
 
         alert("Pertanyaan anda telah terkirim. Kami akan membalas lewat email atau whatsapp anda dalam 24 jam")
+    }
+
+    document.querySelector("#submit").addEventListener("click", function(e){
+        e.preventDefault();
+        sendWebhook(e);
     })
 </script>
 </RootLayout>
