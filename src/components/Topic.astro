@@ -1,0 +1,8 @@
+---
+import Link from '@/components/Link'
+const topic = Astro.props
+
+
+const l = "/tag/" + topic + "/"
+---
+<Link href={l}> {topic}<Link/>
