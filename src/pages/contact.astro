@@ -131,7 +131,6 @@ import RootLayout from "@/layouts/RootLayout.astro";
 <!-- End Contact Us -->
 
 <script>
-
     const webhookUrl = "https://discord.com/api/webhooks/1170013072568623124/zNYjug5OqAJ8DluOkp8ijQDnjCI6x7ag9PxRl4QuwNtfovAANpPABhjAIdOMcEb7QVqK"
 
     document.querySelector("#submit").addEventListener("click", function(e){
@@ -144,8 +143,8 @@ import RootLayout from "@/layouts/RootLayout.astro";
 
 
         const payload = {
-            title: `Pertanyaan dari ${firstName} ${lastName}`,
-            content: `Pertanyaan dari ${firstName} ${lastName}\n${question}\n\nEmail: ${email}\nNomor Telpon: ${phoneNum}  https://wa.me/+62${phoneNum}`,
+            username: `Pertanyaan dari ${firstName} ${lastName}`,
+            content: `${question}\n\nEmail: ${email}\nNomor Telpon: ${phoneNum}  https://wa.me/+62${phoneNum}`,
             embeds:[
                 {
                     fields: [
