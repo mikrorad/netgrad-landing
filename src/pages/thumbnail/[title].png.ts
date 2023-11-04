@@ -8,7 +8,7 @@ export const get: APIRoute = async function get({ params, request }) {
   const robotoData = await fs.readFile("./src/assets/InterBold.ttf");
   // const image = await fs.readFile("./src/assets/og-image.png");
   const myImageBase64 = (await fs.readFile("./src/assets/radiant-gradient.png")).toString("base64");
-  const title = params.title.replace(/-/g, ' ').toUpperCase();
+  const title = params.title;
 
     const html = {
        type: "div",
@@ -85,8 +85,8 @@ export const get: APIRoute = async function get({ params, request }) {
   const svg = await satori(
     html,
     {
-      width: 1200,
-      height: 550,
+      width: 800,
+      height: 400,
       fonts: [
         {
           name: "Roboto",
@@ -112,7 +112,7 @@ export async function getStaticPaths() {
 
   return [...new Set(posts)].map((post) => ({
     params: {
-      title: post.data.title.replace(/ /g, '-').toLowerCase()
+      title: post.data.title
     },
   }));
 }
