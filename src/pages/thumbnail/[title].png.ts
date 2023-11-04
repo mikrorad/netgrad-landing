@@ -4,7 +4,7 @@ import sharp from "sharp";
 import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
 
-import { SITE_METADATA } from '@/consts';
+import { SITE_METADATA } from '@/consts.ts';
 
 export const GET: APIRoute = async function GET({ params, request }) {
   const robotoData = await fs.readFile("./src/assets/InterBold.ttf");
