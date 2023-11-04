@@ -4,7 +4,7 @@ import sharp from "sharp";
 import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
 
-// import { SITE_METADATA } from '@/consts';
+import { SITE_METADATA } from '@/consts';
 
 export const GET: APIRoute = async function GET({ params, request }) {
   const robotoData = await fs.readFile("./src/assets/InterBold.ttf");
@@ -110,7 +110,7 @@ export const GET: APIRoute = async function GET({ params, request }) {
 }
 
 export async function getStaticPaths() {
-  const pages = ['NetGrad', 'Tutorial', 'Kontak', 'Not Found', 'Topik']
+  const pages = [ SITE_METADATA.title , 'Tutorial', 'Kontak', 'Not Found', 'Topik']
   const tags = await getCollection('tags');
   const posts = await getCollection('blog');
 

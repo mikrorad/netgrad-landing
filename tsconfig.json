@@ -4,8 +4,9 @@
     "strictNullChecks": true,
     "baseUrl": "/home/gibi/Workspace/netgrad-landing",
     "paths": {
+      "*": ["*", "*.ts", "*.tsx", "*.js", "*.jsx"],
       "@/*": [
-        "src/*"
+       "src/*"
       ]
     },
     "jsx": "preserve",
