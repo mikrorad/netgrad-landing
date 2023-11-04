@@ -114,10 +114,8 @@ export async function getStaticPaths() {
   const tags = await getCollection('tags');
   const posts = await getCollection('blog');
 
-
   pages.push(...tags.map((tag) => tag.data.name));
   pages.push(...posts.map((post) => post.data.title));
-
 
 
   return [...new Set(pages)].map((page) => ({
