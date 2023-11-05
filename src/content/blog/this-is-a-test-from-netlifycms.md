@@ -4,6 +4,7 @@ date: '2023-11-05'
 summary: Testing gan
 draft: false
 tags:
-  - testing testing
+  - pppoe
+  - hotspot
 ---
 This is a test
