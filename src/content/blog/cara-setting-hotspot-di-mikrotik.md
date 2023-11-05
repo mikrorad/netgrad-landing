@@ -56,6 +56,8 @@ Kita tambah IP address bebas dengan segmen atau CIDR /24 di interface Ether2
 
 ### Tambah DHCP Server di Ether2
 
+Supaya Hotspot berjalan router kita harus menyediakan layanan DHCP ke arah interface yang sama. Makanya kita harus tambahkan DHCP server ke Ether2
+
 Buka menu IP.
 
 ![](/images/uploads/ip-menu.png)
@@ -70,11 +72,16 @@ kemudian click dhcp setup
 
 
 Pilih Ether2
---------- IMAGE HERE
+
+![](/images/uploads/dhcp-setup-ether2.png)
+
+
 
 Kemudian click next beberapa kali sampai selesai.
 
 ## Tambah Hotspot Server ke Ether2
+
+Setelah kita tambah DHCP server kita bisa langsung setting server hotspot kita.
 
 Buka menu IP.
 
