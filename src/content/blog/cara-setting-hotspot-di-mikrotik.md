@@ -123,4 +123,15 @@ Kemudian kita tambah user dan password bebas. kali ini kita gunakan username `te
 
 Kita langsung buka komputer kita yang tersambung ke mikrotik kita.
 
+## Koneksi Client ke Hotspot
+
+Kita langsung buka komputer kita yang tersambung ke mikrotik kita.
+
+Kemudian kita masukkan username dan password yang kita buat tadi.
+
+![](/images/uploads/screenshot-from-2023-11-05-18-28-23.png)
+
+Setelah itu kita lihat komputer kita bisa connect
+
+![](/images/uploads/screenshot-from-2023-11-05-18-31-41.png)
 
