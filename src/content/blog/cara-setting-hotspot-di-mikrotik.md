@@ -66,7 +66,9 @@ Kemudian buka menu DHCP server
 
 kemudian click dhcp setup
 
---------- IMAGE HERE
+![](/images/uploads/dhcp-setup.png)
+
+
 Pilih Ether2
 --------- IMAGE HERE
 
