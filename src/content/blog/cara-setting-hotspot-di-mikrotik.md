@@ -65,3 +65,21 @@ Buka menu IP.
 Buka menu hotspot
 
 ![](/images/uploads/ip-hotspot-menu.png)
+
+### Hotspot Setup 
+
+Di menu hotspot langsung kita click `Hotspot Setup`
+
+![](/images/uploads/ip-hotspot-setup.png)
+
+Pilih interface Ether2 sesuai topologi kita.
+
+![](/images/uploads/hotspot-setup-ether2.png)
+
+Kemudian kita click next beberapa kali sampai selesai
+
+![](/images/uploads/hotspot-setup-next.png)
+
+
+
+**PENTING: JANGAN PASANG DNS NAME. DNS NAME AKAN**
