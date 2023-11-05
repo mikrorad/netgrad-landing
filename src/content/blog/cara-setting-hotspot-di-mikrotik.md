@@ -7,7 +7,7 @@ draft: false
 tags:
   - hotspot
   - mikrotik
-  - layer-3
+  - layer-3-protocol
   - dhcp
 ---
 Hotspot di [mikrotik](/tags/mikrotik) adalah cara untuk mengamankan jaringan (biasanya jaringan wifi) supaya tidak bisa sembarang orang bisa connect. Hotspot juga cara mudah untuk membatasi penggunaan data atau quota untuk setiap user jaringan atau wif-fi.
