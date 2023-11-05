@@ -54,8 +54,6 @@ Kita tambah IP address bebas dengan segmen atau CIDR /24 di interface Ether2
 
 ![add ip 192.168.10.1/24 to ether2](/images/uploads/add-ip-192.168.10.1-24-to-ether2.png "add ip")
 
-
-
 ### Tambah Hotspot Server ke Ether2
 
 Buka menu IP.
@@ -66,7 +64,7 @@ Buka menu hotspot
 
 ![](/images/uploads/ip-hotspot-menu.png)
 
-### Hotspot Setup 
+### Hotspot Setup
 
 Di menu hotspot langsung kita click `Hotspot Setup`
 
@@ -80,6 +78,4 @@ Kemudian kita click next beberapa kali sampai selesai
 
 ![](/images/uploads/hotspot-setup-next.png)
 
-
-
-**PENTING: JANGAN PASANG DNS NAME. DNS NAME AKAN**
+**PENTING: JANGAN PASANG DNS NAME. DNS NAME AKAN BUAT HOTSPOT KITA TIDAK MUNCUL DI HANDPHONE MODERN SEPERTI IPHONE**
