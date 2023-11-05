@@ -61,3 +61,7 @@ Kita tambah IP address bebas dengan segmen atau CIDR /24 di interface Ether2
 Buka menu IP.
 
 ![](/images/uploads/ip-menu.png)
+
+Buka menu hotspot
+
+![](/images/uploads/ip-hotspot-menu.png)
