@@ -66,6 +66,12 @@ Kemudian buka menu DHCP server
 
 kemudian click dhcp setup
 
+--------- IMAGE HERE
+Pilih Ether2
+--------- IMAGE HERE
+
+Kemudian click next beberapa kali sampai selesai.
+
 ## Tambah Hotspot Server ke Ether2
 
 Buka menu IP.
