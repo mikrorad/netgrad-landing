@@ -3,13 +3,15 @@
  *
  * A few of these are not used yet, and are subject to change, example of this is Author.
  */
+const URL = process.env.CONTEXT === 'production' ? 'https://netgrad.id' : process.env.URL;
+
 export const SITE_METADATA = {
     title: 'NetGrad',
     headerTitle: 'NetGrad',
     description: 'Kelola Jaringan Dengan Mudah',
     language: 'id-ID',
     theme: 'light', // Options: system, light, dark, Does not work yet
-    siteUrl: 'https://netgrad.id',
+    siteUrl: URL,
     siteRepo: '',
     siteLogo: '/static/images/logo.png',
     locale: 'id-ID',
