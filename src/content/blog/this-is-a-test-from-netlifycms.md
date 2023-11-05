@@ -2,7 +2,7 @@
 title: This is a test from netlifycms
 date: '2023-11-05'
 summary: Testing gan
-draft: true
+draft: false
 tags:
   - testing testing
 ---
