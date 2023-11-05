@@ -18,4 +18,8 @@ Hotspot biasanya digunakan oleh ISP dan RT/RW net untuk menjual wifi dengan syst
 
 Dengan hotspot, pemilik jaringan bisa mengendalikan pengguna wifi secara bebas. Setiap pengguna bisa memiliki limitasi seperti bandwidth, quota, ataupun durasi maksimal koneksi.
 
-## Setting 
+## Setting Hotspot di Mikrotik
+
+Dalam tutorial ini topologi kita seperti ini:
+
+![topologi hotspot](/images/uploads/screenshot-from-2023-11-05-16-59-31.png "topologi")
