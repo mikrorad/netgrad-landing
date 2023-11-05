@@ -16,4 +16,6 @@ Hotspot di [mikrotik](/tags/mikrotik) adalah cara untuk mengamankan jaringan (bi
 
 Hotspot biasanya digunakan oleh ISP dan RT/RW net untuk menjual wifi dengan system voucheran. Atau biasanya disebut `wifi-id ala ala.`
 
-Dengan hotspot, pemilik jaringan bisa mengendalikan pengguna wifi secara bebas. Setiap pengguna bisa memiliki limitasi seperti bandwidth
+Dengan hotspot, pemilik jaringan bisa mengendalikan pengguna wifi secara bebas. Setiap pengguna bisa memiliki limitasi seperti bandwidth, quota, ataupun durasi maksimal koneksi.
+
+## Setting 
