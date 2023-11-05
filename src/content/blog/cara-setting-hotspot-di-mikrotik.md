@@ -78,6 +78,6 @@ Kemudian kita click next beberapa kali sampai selesai
 
 ![](/images/uploads/hotspot-setup-next.png)
 
-**PENTING: JANGAN PASANG DNS NAME. DNS NAME AKAN BUAT HOTSPOT KITA TIDAK MUNCUL DI HANDPHONE MODERN SEPERTI IPHONE**
+**Penting: Jangan pasang DNS name. DNS name akan membuat hotspot kita tidak muncul di handphone modern seperti iPhone.**
 
 ![](/images/uploads/dns-name-hotspot-warning.png)
