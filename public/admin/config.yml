@@ -17,10 +17,10 @@ collections:
       - {label: "Publish Date", name: "date", widget: "date"}
       - {label: "Summary", name: "summary", widget: "string"}
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
-      - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Topik", name: "tags", widget: "list"}
+      - {label: "Body", name: "body", widget: "markdown", buttons: ["bold", "italic", "code", "link", "heading-two", "heading-three", "heading-four", "heading-five", "quote", "code-block", "bulleted-list", "numbered-list"]}
   - name: "tags"
-    label: "Tags"
+    label: "Topik"
     folder: "src/content/tags"
     create: true
     slug: "{{slug}}"

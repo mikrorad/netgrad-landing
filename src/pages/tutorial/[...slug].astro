@@ -6,7 +6,12 @@ import PostLayout from "@/layouts/PostLayout.astro";
 
 export async function getStaticPaths() {
     const posts = await getCollection('blog', excludeDrafts);
-    return posts.map((post, index) => ({
+
+    // sort by date
+    posts.sort((a, b) => {
+        return new Date(b.date) - new Date(a.date);
+
+    });  return posts.map((post, index) => ({
         params: {slug: post.slug},
         props: {post, next: posts[index + 1], prev: posts[index - 1]},
     }));
