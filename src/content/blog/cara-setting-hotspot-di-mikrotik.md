@@ -23,3 +23,5 @@ Dengan hotspot, pemilik jaringan bisa mengendalikan pengguna wifi secara bebas. 
 Dalam tutorial ini topologi kita seperti ini:
 
 ![topologi hotspot](/images/uploads/screenshot-from-2023-11-05-16-59-31.png "topologi")
+
+Kita punya mikrotik yang sudah ada basic confignya yang terkoneksi dengan internet di interface Ether1.
