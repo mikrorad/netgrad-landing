@@ -79,3 +79,5 @@ Kemudian kita click next beberapa kali sampai selesai
 ![](/images/uploads/hotspot-setup-next.png)
 
 **PENTING: JANGAN PASANG DNS NAME. DNS NAME AKAN BUAT HOTSPOT KITA TIDAK MUNCUL DI HANDPHONE MODERN SEPERTI IPHONE**
+
+![](/images/uploads/dns-name-hotspot-warning.png)
