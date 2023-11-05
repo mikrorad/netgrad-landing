@@ -108,3 +108,9 @@ Kemudian kita click next beberapa kali sampai selesai
 **Penting: Jangan pasang DNS name. DNS name akan membuat hotspot kita tidak muncul di handphone modern seperti iPhone.**
 
 ![](/images/uploads/dns-name-hotspot-warning.png)
+
+## Tambah User Hotspot
+
+Supaya pelanggan atau client hotspot kita bisa connect ke hotspot kita. Kita harus punya username dan password yang akan digunakan user untuk koneksi ke jaringan atau internet kita.
+
+Kita langsung buka menu users di hotspot. Kemudian kita click `+ ` untuk menambah user baru
