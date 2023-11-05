@@ -10,9 +10,9 @@ tags:
   - layer-3
   - dhcp
 ---
-Hotspot di \[mikrotik](/tags/mikrotik) adalah cara untuk mengamankan jaringan (biasanya jaringan wifi) supaya tidak bisa sembarang orang bisa connect. Hotspot juga cara mudah untuk membatasi penggunaan data atau quota untuk setiap user jaringan atau wif-fi.
+Hotspot di [mikrotik](/tags/mikrotik) adalah cara untuk mengamankan jaringan (biasanya jaringan wifi) supaya tidak bisa sembarang orang bisa connect. Hotspot juga cara mudah untuk membatasi penggunaan data atau quota untuk setiap user jaringan atau wif-fi.
 
-\## Kenapa Pakai Hotspot?
+## Kenapa Pakai Hotspot?
 
 Hotspot biasanya digunakan oleh ISP dan RT/RW net untuk menjual wifi dengan system voucheran. Atau biasanya disebut \`wifi-id ala ala.\`
 
