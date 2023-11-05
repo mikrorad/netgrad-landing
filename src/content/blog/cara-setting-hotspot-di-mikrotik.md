@@ -70,12 +70,9 @@ kemudian click dhcp setup
 
 ![](/images/uploads/dhcp-setup.png)
 
-
 Pilih Ether2
 
 ![](/images/uploads/dhcp-setup-ether2.png)
-
-
 
 Kemudian click next beberapa kali sampai selesai.
 
@@ -113,15 +110,11 @@ Kemudian kita click next beberapa kali sampai selesai
 
 Supaya pelanggan atau client hotspot kita bisa connect ke hotspot kita. Kita harus punya username dan password yang akan digunakan user untuk koneksi ke jaringan atau internet kita.
 
-Kita langsung buka menu users di hotspot. Kemudian kita click `+ ` untuk menambah user baru.
+Kita langsung buka menu users di hotspot. Kemudian kita click `+` untuk menambah user baru.
 
 ![](/images/uploads/screenshot-from-2023-11-05-18-18-32.png)
 
 Kemudian kita tambah user dan password bebas. kali ini kita gunakan username `testing` dan password `testing12345`
-
-## Koneksi Client ke Hotspot
-
-Kita langsung buka komputer kita yang tersambung ke mikrotik kita.
 
 ## Koneksi Client ke Hotspot
 
@@ -135,3 +128,5 @@ Setelah itu kita lihat komputer kita bisa connect
 
 ![](/images/uploads/screenshot-from-2023-11-05-18-31-41.png)
 
+\
+Itu tandanya settingan hotspot kita sudah berhasil
