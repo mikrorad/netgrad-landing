@@ -33,3 +33,5 @@ Mikrotik kita akan menjadi server hotspot dan sumber internet kita.
 Mikrotik kita sudah ada basic confignya. 
 
 ### Pasang IP Address di Interface Ether2
+
+![seleksi menu ip di winbox](/images/uploads/ip-menu.png "menu ip")
