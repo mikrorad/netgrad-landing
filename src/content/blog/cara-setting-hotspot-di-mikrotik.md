@@ -30,8 +30,22 @@ Kita punya mikrotik yang sudah ada basic confignya yang terkoneksi dengan intern
 
 Mikrotik kita akan menjadi server hotspot dan sumber internet kita.
 
-Mikrotik kita sudah ada basic confignya. 
+Mikrotik kita sudah ada basic confignya. Langsung kita buka winbox dan remote mikrotik.
 
 ### Pasang IP Address di Interface Ether2
 
+Buka menu IP di sidebar winbox.
+
 ![seleksi menu ip di winbox](/images/uploads/ip-menu.png "menu ip")
+
+Buka menu address
+
+![buka ip address menu](/images/uploads/ip-address-menu.png "ip address menu")
+
+Klick `+`
+
+![ip address add](/images/uploads/ip-address-add.png "add ip address")
+
+### Tambah IP Address Bebas Dengan Segmen `/24`
+
+``
