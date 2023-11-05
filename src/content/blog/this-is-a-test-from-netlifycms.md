@@ -7,4 +7,6 @@ tags:
   - pppoe
   - hotspot
 ---
+![PPPOE](/images/uploads/screenshot-from-2023-11-03-18-14-46.png)
+
 This is a test
