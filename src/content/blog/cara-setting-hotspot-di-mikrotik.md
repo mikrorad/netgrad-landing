@@ -24,4 +24,14 @@ Dalam tutorial ini topologi kita seperti ini:
 
 ![topologi hotspot](/images/uploads/screenshot-from-2023-11-05-16-59-31.png "topologi")
 
-Kita punya mikrotik yang sudah ada basic confignya yang terkoneksi dengan internet di interface Ether1.
+Kita punya mikrotik yang sudah ada basic confignya yang terkoneksi dengan internet di interface Ether1. Kemudian di inteface Ether2 kita sambungkan kabel UTP ke arah komputer. Komputer ini akan menjadi pelanggan atau client hotspot kita.
+
+
+
+## Setting Hotspot Server di Mikrotik
+
+Mikrotik kita akan menjadi server hotspot dan sumber internet kita.
+
+Mikrotik kita sudah ada basic confignya.
+
+### Pasang IP Address di Interface Ether2
