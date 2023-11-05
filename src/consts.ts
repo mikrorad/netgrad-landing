@@ -4,6 +4,7 @@
  * A few of these are not used yet, and are subject to change, example of this is Author.
  */
 const URL = process.env.CONTEXT === 'production' ? 'https://netgrad.id' : process.env.URL;
+const context = process.env.CONTEXT;
 
 export const SITE_METADATA = {
     title: 'NetGrad',
@@ -15,6 +16,7 @@ export const SITE_METADATA = {
     siteRepo: '',
     siteLogo: '/static/images/logo.png',
     locale: 'id-ID',
+    context: context,
 };
 
 /**
