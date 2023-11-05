@@ -17,7 +17,7 @@ export const SITE_METADATA = {
     siteLogo: '/static/images/logo.png',
     locale: 'id-ID',
     context: context,
-    URL: process.env.URL,
+    URL: process.env.DEPLOY_PRIME_URL,
 };
 
 /**
