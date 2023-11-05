@@ -1,0 +1,96 @@
+---
+import RootLayout from "@/layouts/RootLayout.astro";
+import SectionContainer from "@/components/SectionContainer.astro";
+import PageTitle from "@/components/PageTitle.astro";
+import Link from "@/components/Link.astro";
+import FormattedDate from "@/components/FormattedDate.astro";
+import Tag from "@/components/Tag.astro";
+import ScrollTopAndComments from "@/components/ScrollTopAndComments.astro";
+---
+<RootLayout title='testing' description='testing'>
+    <SectionContainer>
+        <article>
+            <div class="xl:divide-y xl:divide-gray-200 xl:dark:divide-gray-700">
+                <header class="pt-6 xl:pb-6">
+                    <div class="space-y-1 text-center">
+                        <dl class="space-y-10">
+                            <div>
+                                <dt class="sr-only">Published on</dt>
+                                <dd class="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
+                                    <time id='date'>
+                                    </tim>
+                                </dd>
+                            </div>
+                        </dl>
+                        <div>
+                            <PageTitle><span id='title'></span></PageTitle>
+                        </div>
+                    </div>
+                </header>
+                <div class="grid-rows-[auto_1fr] divide-y divide-gray-200 pb-8 dark:divide-gray-700 xl:grid xl:grid-cols-4 xl:gap-x-6 xl:divide-y-0">
+                    <div class="divide-y divide-gray-200 dark:divide-gray-700 xl:col-span-3 xl:row-span-2 xl:pb-0">
+                        <div class="prose max-w-none pb-8 pt-10 dark:prose-invert" id='content'>
+                        </div>
+                    </div>
+                    <footer>
+                        <div class="divide-gray-200 text-sm font-medium leading-5 dark:divide-gray-700 xl:col-start-1 xl:row-start-2 xl:divide-y">
+                            <div class="py-4 xl:py-8">
+                                <h2 class="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
+                                    Tags
+                                </h2>
+                                <div class="flex flex-wrap" id='tags'>
+                                </div>
+                            </div>
+
+                            <div class="pt-4 xl:pt-8">
+                                <Link
+                                        href="/tutorial"
+                                        class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                                        aria-label="Lihat tutorial lainnya"
+                                >
+                                    &larr; Lihat tutorial lainnya
+                                </Link>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </article>
+    </SectionContainer>
+</RootLayout>
+
+<script>
+    import { marked } from 'marked';
+    console.log("hello world");
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const title = urlParams.get('title');
+    const content = urlParams.get('content');
+    const tags = urlParams.get('tags');
+    const date = urlParams.get('date');
+
+    document.getElementById('title').innerHTML = title;
+    document.getElementById('content').innerHTML = marked(content);
+
+    const tagArray = tags.split(',');
+    tagArray.forEach(tag => {
+        const a = document.createElement('a');
+        a.href = `/tags/${tag}`;
+        a.innerHTML= tag;
+        a.className = 'mr-3 text-sm font-medium uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400'
+
+        a.innerHTML = tag;
+        console.log(a);
+        const el = document.getElementById('tags')
+        console.log(el);
+        el.appendChild(a);
+    });
+
+
+    const dateDisplay = new Date(date).toLocaleDateString('id-ID', {
+        year: 'numeric',
+        month: 'short',
+        day: 'numeric'
+    });
+    document.getElementById('date').innerHTML = dateDisplay;
+</script>
