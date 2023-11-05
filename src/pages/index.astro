@@ -23,3 +23,15 @@ import PaymentGW from "@/components/PaymentGW.astro";
         <FAQ>
     </div>
 </RootLayout>
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
