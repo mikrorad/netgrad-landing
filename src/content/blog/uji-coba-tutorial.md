@@ -20,4 +20,4 @@ DHCP akan memberikan kemudahan bagi seorang network administrator dalam mengelol
 
 Sebelum kita melakukan konfigurasi DHCP Server, kita atur topologi di Cisco Packet Tracer menjadi seperti berikut ini.
 
-![]()
+![](/images/uploads/img_20231106_220659.jpg)
