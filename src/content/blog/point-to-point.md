@@ -13,3 +13,7 @@ Point to Point (PTP) adalah sebuah metode koneksi jaringan yang menghubungkan du
  PTP sering digunakan untuk menghubungkan dua lokasi yang berjauhan, seperti kantor cabang dengan kantor pusat, atau jaringan antar desa
 
 ![contoh pada gambaran point to point](/images/uploads/top2-400.png "point to point")
+
+**GAMBAR TOPOLOGI POINT TO POINT**
+
+![topologi point to point](/images/uploads/topologi1.jpg "topologi")
