@@ -49,3 +49,35 @@ Disini kalian pilih service **L2TP** dan bebas membuat Name dan Password nya, un
 Setelah kalian membuat **Secrets L2TP**, selanjutkan kita buat forwarding dimenu **Firewall.**
 
 Kali ini kita akan membuat **Remote Mikrotik** dengan metode **L2TP**, mari ikuti langkah-langkah dibawah ini.
+
+**1. Masuk ke Tab IP > Firewall**
+
+![](/images/uploads/screenshot-5-.png)
+
+**2. Masuk ke Menu NAT dan klik +**
+
+![](/images/uploads/screenshot-6-.png)
+
+**3. Membuat Forwarding**
+
+![](/images/uploads/screenshot-7-.png)
+
+![](/images/uploads/screenshot-8-.png)
+
+Mari kita perjelas disini pada Tab Forwarding nya.
+
+\- dstnat : Memiliki fungsi untuk mengubah destination address pada sebuah paket data. Biasa digunakan untuk membuat host dalam jaringan lokal dapat diakses dari luar jaringan (internet) dengan cara NAT akan mengganti alamat IP tujuan paket dengan alamat IP lokal.
+
+1. Chain > dstnat
+2. Dst. Address > disesuaikan dengan IP Public yang kalian miliki
+3. Protocol > TCP
+4. Dst. Port > Port Tujuan (bebas untuk kalian tentukan sendiri)
+5. Action > dst-nat
+6. To Addresses > diisi dengan IP Remote Address yang kalian buat pada tab Secrets
+7. To Ports: 8291 (port winbox)
+
+Disini kita mengubah Port Winbox ke Port yang kita buat disini.
+
+Contoh:
+
+![](/images/uploads/screenshot-10-.png)
