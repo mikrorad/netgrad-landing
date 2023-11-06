@@ -28,3 +28,6 @@ Point to Point (PTP) adalah sebuah metode koneksi jaringan yang menghubungkan du
 
    ![Setting ip pc atau laptop masing-masing](/images/uploads/48.png "setting ip pc atau laptop masing-masing")
 3. Lalu setting IP PC/Laptop kalian seperti di atas,setting dengan masuk ke ***contol panel lalu pilih network and internet lalu pilih network and sharing center,klick pada change network adaptor setting lalu cari jaringan kalian yang tadi hubungkan ke pc lalu ganti ip kalian dengan 192.168.3.2 subbnet mask 255.255.255.0 deffault gateway akan terisi otomatis***
+
+   ![tambahkan route list](/images/uploads/38.png "tambahkan route list")
+4. Tambahkan route list dengan pilih menu Routing lalu klik ‘+’ dan masukkan alamat IP Access Point pada Client dan lalu sebaliknya IP Client pada Access Point.
