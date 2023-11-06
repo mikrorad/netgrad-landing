@@ -7,6 +7,7 @@ tags:
   - remote-jarak-jauh
   - point-to-point
   - mikrotik
+  - l2tp
 ---
 Sebagai network administrator pasti sering terjadi situasi dimana kita harus akses dan remote mikrotik kita dari jarak jauh.
 
