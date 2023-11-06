@@ -53,3 +53,5 @@ Klik pada PC kemudian klik tab Desktop, pilih IP Configuration.
 Kita lakukan pengetesan koneksi dengan melakukan test ping dari PC0 ke Router.
 
 Klik pada PC0, klik tab Desktop, dan pilih Command Prompt.
+
+![](/images/uploads/img_20231106_224434.jpg)
