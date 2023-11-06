@@ -47,3 +47,9 @@ Kita telah melakukan konfigurasi DHCP Server di router. Selanjutnya kita akan me
 Klik pada PC kemudian klik tab Desktop, pilih IP Configuration.
 
 ![](/images/uploads/gridart_20231106_223555081.jpg)
+
+### 5.Pengetesan Ping PC ke router
+
+Kita lakukan pengetesan koneksi dengan melakukan test ping dari PC0 ke Router.
+
+Klik pada PC0, klik tab Desktop, dan pilih Command Prompt.
