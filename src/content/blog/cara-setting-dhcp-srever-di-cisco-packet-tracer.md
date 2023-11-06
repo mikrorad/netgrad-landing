@@ -1,5 +1,5 @@
 ---
-title: Cara Setting DHCP Server di Cisco Paket Tracer
+title: Cara Setting DHCP Server di Cisco Packet Tracer
 date: 2023-11-06T12:38:49.175Z
 summary: Ingin tahu tahu cara setting dhcp server di cisco? klik link ini
 draft: false
