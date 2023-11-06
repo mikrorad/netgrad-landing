@@ -10,10 +10,14 @@ tags:
 
 DHCP adalah singkatan dari Dynamic Host Configuration Protocol. DHCP adalah protokol yang digunakan untuk distribusi IP Address pada jaringan komputer secara dinamis dan otomatis. Dengan menggunakan DHCP Anda dapat melakukan konfigurasi IP address pada setiap perangkat di jaringan komputer secara otomatis.
 
-
-
 ### Kenapa harus menggunakan DHCP?
 
 DHCP akan memberikan kemudahan bagi seorang network administrator dalam mengelola jaringan komputer, karena alokasi IP Address dapat di tentukan secara otomatis dan tidak perlu mengkonfigurasi IP secara manual di sisi client.
 
-![](/images/uploads/dhcp-setup.png)
+
+
+### 1.Topologi jaringan
+
+Sebelum kita melakukan konfigurasi DHCP Server, kita atur topologi di Cisco Packet Tracer menjadi seperti berikut ini.
+
+![]()
