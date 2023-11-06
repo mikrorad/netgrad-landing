@@ -45,3 +45,5 @@ Klik Router, pilih tab CLI, dan masukan perintah berikut ini
 Kita telah melakukan konfigurasi DHCP Server di router. Selanjutnya kita akan mengkonfigurasi IP address di PC client menjadi DHCP Client, sehingga PC client akan mendapatkan IP address otomatis dari Router.
 
 Klik pada PC kemudian klik tab Desktop, pilih IP Configuration.
+
+![](/images/uploads/gridart_20231106_223555081.jpg)
