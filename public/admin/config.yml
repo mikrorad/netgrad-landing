@@ -3,11 +3,11 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
   squash_merges: true
   commit_messages:
-    create: 'CMS: Create {{collection}} “{{slug}}” by "{{author-name}}"'
-    update: 'CMS: Update {{collection}} “{{slug}} by "{{author-name}}"”'
-    delete: 'CMS: Delete {{collection}} “{{slug}} by {{author-name}}”'
-    uploadMedia: 'CMS: Upload “{{path}}” by {{author-name}}'
-    deleteMedia: 'CMS: Delete “{{path}} by {{author-name}}”'
+    create: 'cms: create {{collection}} “{{slug}}” by "{{author-name}}"'
+    update: 'cms: update {{collection}} “{{slug}} by "{{author-name}}"”'
+    delete: 'cms: delete {{collection}} “{{slug}} by {{author-name}}”'
+    uploadMedia: 'cms: upload “{{path}}” by {{author-name}}'
+    deleteMedia: 'cms: delete “{{path}} by {{author-name}}”'
     openAuthoring: '{{message}}'
 
 publish_mode: editorial_workflow
