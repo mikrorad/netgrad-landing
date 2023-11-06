@@ -27,3 +27,11 @@ Sebelum kita melakukan konfigurasi DHCP Server, kita atur topologi di Cisco Pack
 Kita atur terlebih dahulu IP address pada interface Gig0/0 (yang terhubung ke arah switch/client)Router dengan cara klik Router, kemudian pilih tab CLI dan masukkan perintah berikut ini.
 
 ![](/images/uploads/img_20231106_221712.jpg)
+
+### 3.konfigurasi DHCP Server Router
+
+Selanjutnya kita akan melakukan konfigurasi DHCP Server Router dengan ketentuan sebagai berikut.
+
+* Gateway: 192.168.10.1
+* DNS Server : 192.168.10.1
+* Network: 192.168.10.0/24
