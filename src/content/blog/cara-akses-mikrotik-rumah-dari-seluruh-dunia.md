@@ -3,8 +3,7 @@ title: Cara Akses Mikrotik Rumah Dari Seluruh Dunia
 date: 2023-11-06T15:03:19.550Z
 summary: Mau bisa akses Mikrotik dari mana saja? mari ikuti caranya.
 draft: false
-tags:
-  - remote
+tags: []
 ---
 L2TP atau Layer 2 Tunneling Protocol adalah protokol tunneling yang sering dikombinasikan dengan protokol keamanan lain seperti IPSec untuk membuat koneksi VPN yang sangat aman. L2TP menghasilkan tunnel antara dua titik koneksi 
 
