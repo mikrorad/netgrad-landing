@@ -33,7 +33,7 @@ collections:
     folder: "src/content/tags"
     create: true
     slug: "{{name}}"
-    preview_path: '/tags/{{slug}}'
+    preview_path: '/tags/{{name}}'
     fields: # The fields for each document, usually in front matter
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
