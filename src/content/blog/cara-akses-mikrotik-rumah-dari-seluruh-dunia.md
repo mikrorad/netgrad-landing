@@ -9,7 +9,13 @@ tags:
   - mikrotik
   - ""
 ---
-L2TP atau Layer 2 Tunneling Protocol adalah protokol tunneling yang sering dikombinasikan dengan protokol keamanan lain seperti IPSec untuk membuat koneksi VPN yang sangat aman. L2TP menghasilkan tunnel antara dua titik koneksi 
+Sebagai network administrator pasti sering terjadi situasi dimana kita harus akses dan remote mikrotik kita dari jarak jauh.
+
+## Bagaimana Caranya?
+
+Kita bisa gunakan VPN L2TP untuk bisa remote mikrotik kita dari jarak jauh.
+
+L2TP atau Layer 2 Tunneling Protocol adalah protokol tunneling yang sering dikombinasikan dengan protokol keamanan lain seperti IPSec untuk membuat koneksi VPN yang sangat aman. L2TP menghasilkan tunnel antara dua titik koneksi .
 
 ## Kenapa L2TP?
 
