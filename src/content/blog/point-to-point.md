@@ -34,3 +34,6 @@ Point to Point (PTP) adalah sebuah metode koneksi jaringan yang menghubungkan du
 
    ![configurasi wirless](/images/uploads/2konfigurasiapside.png "configurasi wirless")
 5.  buka menu wireless > pilih wlan1 > lalu ubah mode menjadi ‘bridge’, ssid menjadi ‘meja1’, band menjadi ‘2GHz-B/G’ dan frequency menjadi ‘2412’ > klik enable. ***Note sesuaikan dengan gambar di atas***
+
+   ![configurasi station](/images/uploads/18.png "station")
+6.  buka menu wireless > pilih wlan1 > lalu ubah mode menjadi ‘station’, ssid menjadi ‘meja1’, dan band menjadi ‘2GHz-B/G’ > klik enable.***Note samakan gambar yang ada di atas***
