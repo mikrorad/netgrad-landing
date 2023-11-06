@@ -81,3 +81,29 @@ Disini kita mengubah Port Winbox ke Port yang kita buat disini.
 Contoh:
 
 ![](/images/uploads/screenshot-10-.png)
+
+#### **Setting L2TP Client**
+
+**1. Buka Menu PPP**
+
+![](/images/uploads/screenshot-1-.png)
+
+**2. Klik tanda + lalu klik L2TP Client**
+
+![](/images/uploads/screenshot-11-.png)
+
+**3. Tambah L2TP Client dan masuk ke Tab Dial Out**
+
+![](/images/uploads/screenshot-12-.png)
+
+1. Connect To: IP Public dari Mikrotik Server
+2. User dan Password yang kita buat pada Tab Secrets di Mikrotik Server
+3. Status: Connected (koneksi L2TP sudh berhasil)
+
+Setelah itu kita uji coba untuk cara penggunaaannya.
+
+![](/images/uploads/screenshot-10-.png)
+
+![](/images/uploads/screenshot-13-.png)
+
+Pada Tab Sessions bisa kalian lihat bahwa hasil dari Forwarding IP nya untuk membuka remote dengan metode L2TP sudah berhasil.
