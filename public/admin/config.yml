@@ -30,7 +30,7 @@ collections:
         name: "tags"
         widget: "relation"
         collection: "tags"
-        value_field: "name"
+        value_field: "{{slug}}"
         search_fields: ["name"]
         display_fields: ["name"]
         multiple: true
