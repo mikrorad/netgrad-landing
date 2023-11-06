@@ -14,10 +14,12 @@ DHCP adalah singkatan dari Dynamic Host Configuration Protocol. DHCP adalah prot
 
 DHCP akan memberikan kemudahan bagi seorang network administrator dalam mengelola jaringan komputer, karena alokasi IP Address dapat di tentukan secara otomatis dan tidak perlu mengkonfigurasi IP secara manual di sisi client.
 
-
-
 ### 1.Topologi jaringan
 
 Sebelum kita melakukan konfigurasi DHCP Server, kita atur topologi di Cisco Packet Tracer menjadi seperti berikut ini.
 
 ![](/images/uploads/img_20231106_220659.jpg)
+
+**Noted: Router dan switch bebas tipe apa aja**
+
+### 2.Setting ip
