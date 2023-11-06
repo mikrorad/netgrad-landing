@@ -31,3 +31,6 @@ Point to Point (PTP) adalah sebuah metode koneksi jaringan yang menghubungkan du
 
    ![tambahkan route list](/images/uploads/38.png "tambahkan route list")
 4. Tambahkan route list dengan pilih menu Routing lalu klik ‘+’ dan masukkan alamat IP Access Point pada Client dan lalu sebaliknya IP Client pada Access Point.
+
+   ![configurasi wirless](/images/uploads/2konfigurasiapside.png "configurasi wirless")
+5.  buka menu wireless > pilih wlan1 > lalu ubah mode menjadi ‘bridge’, ssid menjadi ‘meja1’, band menjadi ‘2GHz-B/G’ dan frequency menjadi ‘2412’ > klik enable. ***Note sesuaikan dengan gambar di atas***
