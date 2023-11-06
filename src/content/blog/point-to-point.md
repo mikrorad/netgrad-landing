@@ -37,3 +37,6 @@ Point to Point (PTP) adalah sebuah metode koneksi jaringan yang menghubungkan du
 
    ![configurasi station](/images/uploads/18.png "station")
 6.  buka menu wireless > pilih wlan1 > lalu ubah mode menjadi ‘station’, ssid menjadi ‘meja1’, dan band menjadi ‘2GHz-B/G’ > klik enable.***Note samakan gambar yang ada di atas***
+
+   ![lakukan uji coba ](/images/uploads/58.png "uji coba")
+7. jika sudah Lakukan pengetesan dengan melakukan ping ke masing-masing alamat. Dengan memilih menu New Terminal ataupun submenu Ping yang ada pada menu Tools. New Terminal memiliki fungsi yang sama dengan Command Prompt, namun new terminal adalah menu yang terdapat pada winbox.
