@@ -14,6 +14,12 @@ Point to Point (PTP) adalah sebuah metode koneksi jaringan yang menghubungkan du
 
 ![contoh pada gambaran point to point](/images/uploads/top2-400.png "point to point")
 
-**GAMBAR TOPOLOGI POINT TO POINT DAN CARA KONFIGURASI**
+**GAMBAR TOPOLOGI POINT TO POINT**
 
 ![topologi point to point](/images/uploads/topologi1.jpg "topologi")
+
+**BERIKUT CARA CONFIGURASI POINT TO POINT** 
+
+1. Kalian hubungangkan masing-masing router mikrotik ke PC atau laptop kalian pada port Ether 1 pada topologi di atas,di dalam hal ini, port yang pakai adalah ether3 pada Access Point dan ether 2 pada Client
+
+   ![](/images/uploads/28.png)
