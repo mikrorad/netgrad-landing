@@ -35,3 +35,7 @@ Selanjutnya kita akan melakukan konfigurasi DHCP Server Router dengan ketentuan 
 * Gateway: 192.168.10.1
 * DNS Server : 192.168.10.1
 * Network: 192.168.10.0/24
+
+Klik Router, pilih tab CLI, dan masukan perintah berikut ini
+
+![](/images/uploads/img_20231106_222710.jpg)
