@@ -12,4 +12,8 @@ DHCP adalah singkatan dari Dynamic Host Configuration Protocol. DHCP adalah prot
 
 
 
+### Kenapa harus menggunakan DHCP?
+
+DHCP akan memberikan kemudahan bagi seorang network administrator dalam mengelola jaringan komputer, karena alokasi IP Address dapat di tentukan secara otomatis dan tidak perlu mengkonfigurasi IP secara manual di sisi client.
+
 ![](/images/uploads/dhcp-setup.png)
