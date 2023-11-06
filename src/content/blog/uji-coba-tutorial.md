@@ -1,7 +1,7 @@
 ---
-title: Tutorial Setting Router di Cisco packet tracer sebagai DHCP Server
+title: Cara Setting DHCP Server di Cisco Paket Tracer
 date: 2023-11-06T12:38:49.175Z
-summary: Ingin tahu tahu cara setting dhcp server di cisco?klik link ini
+summary: Ingin tahu tahu cara setting dhcp server di cisco? klik link ini
 draft: false
 tags:
   - dhcp
@@ -52,8 +52,8 @@ Klik pada PC kemudian klik tab Desktop, pilih IP Configuration.
 
 Kita lakukan pengetesan koneksi dengan melakukan test ping dari PC0 ke Router.
 
-Klik pada PC0, klik tab Desktop, dan pilih Command Prompt.
+ Klik pada PC0, klik tab Desktop, dan pilih Command Prompt.
 
-> ![](/images/uploads/img_20231106_224434.jpg)
->
-> Terima kasih telah membaca artikel ini.
+  ![](/images/uploads/img_20231106_224434.jpg)
+ 
+  Terima kasih telah membaca artikel ini.
