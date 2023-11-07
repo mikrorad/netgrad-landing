@@ -34,6 +34,14 @@ collections:
         search_fields: ["name"]
         display_fields: ["name"]
         multiple: true
+      - label: "Related"
+        name: "relation"
+        widget: "relation"
+        collection: "blog"
+        value_field: "{{slug}}"
+        search_fields: ["name"]
+        display_fields: ["name"]
+        multiple: true
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "tags"
     label: "Topik"
