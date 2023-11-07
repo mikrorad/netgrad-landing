@@ -5,7 +5,6 @@ summary: Ingin tahu tahu cara setting dhcp server di cisco? klik link ini
 draft: false
 tags:
   - dhcp
-  - cisco
 ---
 ### Pengertian DHCP
 
