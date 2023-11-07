@@ -27,6 +27,8 @@ Sebelum kita melakukan konfigurasi DHCP Server, kita atur topologi di Cisco Pack
 
 Kita atur terlebih dahulu IP address pada interface Gig0/0 (yang terhubung ke arah switch/client)Router dengan cara klik Router, kemudian pilih tab CLI dan masukkan perintah berikut ini.
 
+![](/images/uploads/img_20231107_194632.jpg)
+
 ![](/images/uploads/img_20231106_221712.jpg)
 
 ### 3.konfigurasi DHCP Server Router
@@ -47,6 +49,8 @@ Kita telah melakukan konfigurasi DHCP Server di router. Selanjutnya kita akan me
 
 Klik pada PC kemudian klik tab Desktop, pilih IP Configuration.
 
+![](/images/uploads/img_20231107_194505.jpg)
+
 ![](/images/uploads/gridart_20231106_223555081.jpg)
 
 ### 5.Pengetesan Ping PC ke router
@@ -56,5 +60,5 @@ Kita lakukan pengetesan koneksi dengan melakukan test ping dari PC0 ke Router.
  Klik pada PC0, klik tab Desktop, dan pilih Command Prompt.
 
   ![](/images/uploads/img_20231106_224434.jpg)
- 
+
   Terima kasih telah membaca artikel ini.
