@@ -34,8 +34,8 @@ collections:
         search_fields: ["name"]
         display_fields: ["name"]
         multiple: true
-      - label: "Related"
-        name: "relation"
+      - label: "Related Tutorial"
+        name: "related"
         widget: "relation"
         collection: "blog"
         value_field: "{{slug}}"
