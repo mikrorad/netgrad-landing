@@ -13,4 +13,4 @@ Repeater adalah alat yang dugunakan sebagai penguat sinyal wireless yang dipanca
 
 ### Kenapa harus repeater?
 
-Karena dengan adanya repeater, seorang administrator jaringan
+Karena dengan adanya repeater, seorang administrator jaringan tidak perlu menarik kabel untuk memperluas area jaringan tapi cukup menggunakan repeater untuk menangkap sinyal yang akan diperluas
