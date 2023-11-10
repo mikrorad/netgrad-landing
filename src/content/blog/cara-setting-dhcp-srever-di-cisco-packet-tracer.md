@@ -5,6 +5,8 @@ summary: Ingin tahu tahu cara setting dhcp server di cisco? klik link ini
 draft: false
 tags:
   - dhcp
+  - cisco
+  - layer-3-protocol
 ---
 ### Pengertian DHCP
 
