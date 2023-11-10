@@ -39,8 +39,8 @@ collections:
         widget: "relation"
         collection: "blog"
         value_field: "{{slug}}"
-        search_fields: ["name"]
-        display_fields: ["name"]
+        search_fields: ["title"]
+        display_fields: ["title"]
         multiple: true
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "tags"
