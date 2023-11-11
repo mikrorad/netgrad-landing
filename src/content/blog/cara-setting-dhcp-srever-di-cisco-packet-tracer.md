@@ -50,7 +50,7 @@ Kita telah melakukan konfigurasi DHCP Server di router. Selanjutnya kita akan me
 
 Klik pada PC kemudian klik tab Desktop, pilih IP Configuration.
 
-![](/images/uploads/img_20231107_194505.jpg)
+![Tes](/images/uploads/img_20231107_194505.jpg)
 
 ![](/images/uploads/gridart_20231106_223555081.jpg)
 
