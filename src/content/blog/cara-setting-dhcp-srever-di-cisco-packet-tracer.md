@@ -52,7 +52,7 @@ Klik pada PC kemudian klik tab Desktop, pilih IP Configuration.
 
 ![](/images/uploads/img_20231107_194505.jpg)
 
-![](/images/uploads/gridart_20231106_223555081.jpg)
+![](/images/uploads/img_20231111_135030.jpg)
 
 ### 5.Pengetesan Ping PC ke router
 
