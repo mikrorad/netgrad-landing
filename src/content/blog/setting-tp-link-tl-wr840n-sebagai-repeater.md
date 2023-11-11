@@ -42,3 +42,13 @@ setelah itu,Pada AP List akan muncul beberapa sinyal wifi yang tertangkap, silak
 \-Pilih SSID Wifi yang dituju kemudian klik Connect.
 
 ### 7.SETTING SSID dan IP untuk repeater nya
+
+masukan password wifi utama dan berikan nama wifi extender, kamu bisa memberi namanya sesuai dengan wifi utama atau berbeda nama dengan memilih Customize pada Wireless Name of Range Extender seperti gambar dibawah, lalu klik Next
+
+
+
+Noted(saya sarankan untuk ssid repeater nya samakan dengan AP utama)
+
+
+
+Untuk Network Setting pilih Static IP atau Smart IP (DHCP), dan masukan ip address yang diinginkan jika kamu memilih Static IP(samakan Network IP nya dengan AP utama), lalu dhcp server sebaiknya disable aja agar IP langsung diberi oleh AP utama, kemudian klik.next
