@@ -17,8 +17,6 @@ Karena dengan adanya repeater, seorang administrator jaringan tidak perlu menari
 
 ### 1.Topologi
 
-
-
 ### 2. Menyalakan dan mereset TP link
 
 Nyalakan dulu Router TP-Link TL-WR840N dengan adaptor bawaannya, atau apabila router anda pernah dipakai sebelumnya, silahkan reset ke pengaturan awal / pabrik, dengan cara menekan tombol  WPS/Reset yang berada di belakang router (tekan terus beberapa saat sampai lampu indikator router nyala ngeblink semua, lalu lepaskan.
@@ -31,13 +29,19 @@ Koneksikan device (laptop atau hp)yang mau dipakai untuk setting dengan Device n
 
 Setelah connect buka browser, dan masuk ke http://tplinkwifi.net atau masukkan IP 192.168.0.1 (keterangan ini tertulis /tertempel di router), kemudian Masukkan Username dan password defaultnya (admin – lihat di belakang device).
 
+![](/images/uploads/100-06-tplink-tl-wr840n-wisp.png)
+
 ### 5.Ganti mode ke extended/repeater
 
 Masuk pada Quick Setup, next dan pilih Range Extender, kemudian klik next untuk memulai settingan.
 
+![](/images/uploads/img_20231111_114825.jpg)
+
 ### 6.Scan ssid wifi AP yang akan ditembak Dan menyambungkanya
 
 setelah itu,Pada AP List akan muncul beberapa sinyal wifi yang tertangkap, silakan pilih/koneksikan ke jaringan wifi akan kamu perluas sinyalnya dengan cara klik Connect
+
+![](/images/uploads/screenshot_2023-11-11-12-56-02-52.jpg)
 
 \-Pilih SSID Wifi yang dituju kemudian klik Connect.
 
@@ -45,10 +49,16 @@ setelah itu,Pada AP List akan muncul beberapa sinyal wifi yang tertangkap, silak
 
 masukan password wifi utama dan berikan nama wifi extender, kamu bisa memberi namanya sesuai dengan wifi utama atau berbeda nama dengan memilih Customize pada Wireless Name of Range Extender seperti gambar dibawah, lalu klik Next
 
-
+![](/images/uploads/3.-setting-wireless-wifi.jpg)
 
 Noted(saya sarankan untuk ssid repeater nya samakan dengan AP utama)
 
-
+### 8.Setting network ip
 
 Untuk Network Setting pilih Static IP atau Smart IP (DHCP), dan masukan ip address yang diinginkan jika kamu memilih Static IP(samakan Network IP nya dengan AP utama), lalu dhcp server sebaiknya disable aja agar IP langsung diberi oleh AP utama, kemudian klik.next
+
+![](/images/uploads/4.-pilh-static-ip-dhcp-disablejpg.jpg)
+
+### Pastikan settingan yang sudah kamu pilih sudah sesuai lalu klik Next untuk menyimpan
+
+![]()
