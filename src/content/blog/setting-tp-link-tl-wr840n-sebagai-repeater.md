@@ -59,6 +59,10 @@ Untuk Network Setting pilih Static IP atau Smart IP (DHCP), dan masukan ip addre
 
 ![](/images/uploads/4.-pilh-static-ip-dhcp-disablejpg.jpg)
 
-### Pastikan settingan yang sudah kamu pilih sudah sesuai lalu klik Next untuk menyimpan
+### 9.Pastikan settingan yang sudah kamu pilih sudah sesuai lalu klik Next untuk menyimpan
 
-![]()
+![](/images/uploads/5.-klik-finish.jpg)
+
+### 10.Tunggu proses rebooting atau restart selesai
+
+![](/images/uploads/6.-tunggu-hingga-proses-rebooting-selesai.jpg)
