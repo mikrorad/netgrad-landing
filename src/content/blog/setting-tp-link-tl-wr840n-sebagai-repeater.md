@@ -6,6 +6,7 @@ draft: false
 tags:
   - dhcp
   - layer-3-protocol
+  - tp-link
 ---
 ### Apa itu repeater?
 
