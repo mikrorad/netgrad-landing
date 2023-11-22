@@ -72,3 +72,5 @@ Untuk Network Setting pilih Static IP atau Smart IP (DHCP), dan masukan ip addre
 ### 10.Tunggu proses rebooting atau restart selesai
 
 ![](/images/uploads/6.-tunggu-hingga-proses-rebooting-selesai.jpg)
+
+Jika proses rebooting sudah selesai maka repeater siap digunakan
