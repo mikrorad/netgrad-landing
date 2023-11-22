@@ -17,6 +17,8 @@ Karena dengan adanya repeater, seorang administrator jaringan tidak perlu menari
 
 ### 1.Topologi
 
+![](/images/uploads/screenshot_2023-11-19-21-55-16-83_ee92dd2796c5abdb79ebb8cb6a3579d6.jpg)
+
 ### 2. Menyalakan dan mereset TP link
 
 Nyalakan dulu Router TP-Link TL-WR840N dengan adaptor bawaannya, atau apabila router anda pernah dipakai sebelumnya, silahkan reset ke pengaturan awal / pabrik, dengan cara menekan tombol  WPS/Reset yang berada di belakang router (tekan terus beberapa saat sampai lampu indikator router nyala ngeblink semua, lalu lepaskan.
