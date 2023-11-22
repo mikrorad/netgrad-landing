@@ -23,9 +23,13 @@ Karena dengan adanya repeater, seorang administrator jaringan tidak perlu menari
 
 Nyalakan dulu Router TP-Link TL-WR840N dengan adaptor bawaannya, atau apabila router anda pernah dipakai sebelumnya, silahkan reset ke pengaturan awal / pabrik, dengan cara menekan tombol  WPS/Reset yang berada di belakang router (tekan terus beberapa saat sampai lampu indikator router nyala ngeblink semua, lalu lepaskan.
 
+![](/images/uploads/img_20231111_142642.jpg)
+
 ### 3.menyambungkan device ke TP link
 
 Koneksikan device (laptop atau hp)yang mau dipakai untuk setting dengan Device nya, default nama wifi  TP-Link TL-WR840N biasanya bernama TP-LINK_788C, silahkan cari Wifi SSID yang bernama TP-LINK_788C, kemudian masuk dengan password default dari device. (password default  tertulis/tertempel dibelakang device )
+
+![](/images/uploads/img20231121090016.jpg)
 
 ### 4.login ke webfig TP Link
 
