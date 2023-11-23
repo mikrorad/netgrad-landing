@@ -18,7 +18,7 @@ Dengan Adanya Accespoint semua client yang terconnect di Accespoint tersebut aka
 
 ### Topologi
 
-![]()
+![](/images/uploads/screenshot_2023-11-23-21-51-54-35_ee92dd2796c5abdb79ebb8cb6a3579d6.jpg)
 
 ### login ke webfig TP Link
 
