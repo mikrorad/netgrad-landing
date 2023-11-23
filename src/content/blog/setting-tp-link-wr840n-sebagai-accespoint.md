@@ -24,7 +24,7 @@ Dengan Adanya Accespoint semua client yang terconnect di Accespoint tersebut aka
 
 buka browser, dan masuk ke http://tplinkwifi.net atau masukkan IP 192.168.0.1 (keterangan ini tertulis /tertempel di router), kemudian Masukkan Username dan password defaultnya (admin – lihat di belakang device).
 
-![]()
+![](/images/uploads/100-06-tplink-tl-wr840n-wisp.png)
 
 ### Kemudian klik Next pada halaman Quick Setup
 
@@ -36,7 +36,7 @@ buka browser, dan masuk ke http://tplinkwifi.net atau masukkan IP 192.168.0.1 (k
 
 ### Lalu pada bagian Wireless buat nama SSID/Wifi dan Password yang diinginkan, kemudian Next
 
-![]()
+![](/images/uploads/img_20231123_112435.jpg)
 
 ### Kemudian pada Networking Setting
 
@@ -45,12 +45,12 @@ buka browser, dan masuk ke http://tplinkwifi.net atau masukkan IP 192.168.0.1 (k
 * Subnet Mask : 255.255.255.0
 * DHCP Server : Disable agar mendapatkan IP dari Modem utama 
 
-  ![]()
+  ![](/images/uploads/img_20231123_112349.jpg)
 
 ### Dan klik Finish untuk menyimpan settingan
 
-![]()
+![](/images/uploads/img_20231123_112600.jpg)
 
 ### Selesai, tunggu hingga rebooting/restart selesai
 
-![]()
+![](/images/uploads/screenshot-21-.png)
