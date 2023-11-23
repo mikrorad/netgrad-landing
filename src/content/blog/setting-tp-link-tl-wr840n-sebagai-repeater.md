@@ -20,6 +20,12 @@ Karena dengan adanya repeater, seorang administrator jaringan tidak perlu menari
 
 ![](/images/uploads/screenshot_2023-11-19-21-55-16-83_ee92dd2796c5abdb79ebb8cb6a3579d6.jpg)
 
+Modem isp:sebagai sumber internet
+
+Repeater: sebagai penangkap dan penyebar sinyal dari modem isp
+
+Tablet dan hp: sebagai client 
+
 ### 2. Menyalakan dan mereset TP link
 
 Nyalakan dulu Router TP-Link TL-WR840N dengan adaptor bawaannya, atau apabila router anda pernah dipakai sebelumnya, silahkan reset ke pengaturan awal / pabrik, dengan cara menekan tombol  WPS/Reset yang berada di belakang router (tekan terus beberapa saat sampai lampu indikator router nyala ngeblink semua, lalu lepaskan.
@@ -58,7 +64,7 @@ masukan password wifi utama dan berikan nama wifi extender, kamu bisa memberi na
 
 ![](/images/uploads/3.-setting-wireless-wifi.jpg)
 
-Noted(saya sarankan untuk ssid repeater nya samakan dengan AP utama)
+> **Noted(saya sarankan untuk ssid repeater nya samakan dengan AP utama)**
 
 ### 8.Setting network ip
 
