@@ -35,4 +35,6 @@ buka browser, dan masuk ke http://tplinkwifi.net atau masukkan IP 192.168.0.1 (k
 * Subnet Mask : 255.255.255.0
 * DHCP Server : Disable agar mendapatkan IP dari Modem utama lalu
 
-Gg
+### Dan klik Finish untuk menyimpan settingan
+
+### Selesai, tunggu hingga rebooting/restart selesai
