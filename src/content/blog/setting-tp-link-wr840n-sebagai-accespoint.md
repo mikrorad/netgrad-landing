@@ -11,3 +11,9 @@ tags:
 ### Apa Itu Accespoint?
 
 Accespoint adalah sebuah perangkat jaringan yang berfungsi sebagai perluasan jaringan melalui jaringan nirkabel/kabel.cara kerjanya hampir sama Dengan switch akan tetapi bedanya Accespoint menyebarkan jaringan melalui wireless dan kabel tidak seperti Switch yang hanya menyebarkan melalui kabel saja
+
+### Kenapa Harus Accespoint?
+
+Dengan Adanya Accespoint semua client yang terconnect di Accespoint tersebut akan mendapatkan Ip langsung dari router pusat sehingga client" yang tersambung ke Accespoint bisa dikelola langsung oleh router pusat
+
+### Topologi
