@@ -32,7 +32,7 @@ buka browser, dan masuk ke http://tplinkwifi.net atau masukkan IP 192.168.0.1 (k
 
 ### Dan pada pilihan Operation Mode pilih Access Point
 
-![]()
+![](/images/uploads/img_20231123_113141.jpg)
 
 ### Lalu pada bagian Wireless buat nama SSID/Wifi dan Password yang diinginkan, kemudian Next
 
