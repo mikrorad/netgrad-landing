@@ -18,23 +18,39 @@ Dengan Adanya Accespoint semua client yang terconnect di Accespoint tersebut aka
 
 ### Topologi
 
+![]()
+
 ### login ke webfig TP Link
 
 buka browser, dan masuk ke http://tplinkwifi.net atau masukkan IP 192.168.0.1 (keterangan ini tertulis /tertempel di router), kemudian Masukkan Username dan password defaultnya (admin – lihat di belakang device).
 
+![]()
+
 ### Kemudian klik Next pada halaman Quick Setup
+
+![]()
 
 ### Dan pada pilihan Operation Mode pilih Access Point
 
+![]()
+
 ### Lalu pada bagian Wireless buat nama SSID/Wifi dan Password yang diinginkan, kemudian Next
+
+![]()
 
 ### Kemudian pada Networking Setting
 
 * LAN Type : Static IP
 * IP Address : Sesuaikan dengan IP Jaringan
 * Subnet Mask : 255.255.255.0
-* DHCP Server : Disable agar mendapatkan IP dari Modem utama lalu
+* DHCP Server : Disable agar mendapatkan IP dari Modem utama 
+
+  ![]()
 
 ### Dan klik Finish untuk menyimpan settingan
 
+![]()
+
 ### Selesai, tunggu hingga rebooting/restart selesai
+
+![]()
