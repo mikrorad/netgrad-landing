@@ -28,7 +28,7 @@ buka browser, dan masuk ke http://tplinkwifi.net atau masukkan IP 192.168.0.1 (k
 
 ### Kemudian klik Next pada halaman Quick Setup
 
-![]()
+![](/images/uploads/screenshot-15-.png)
 
 ### Dan pada pilihan Operation Mode pilih Access Point
 
