@@ -17,3 +17,22 @@ Accespoint adalah sebuah perangkat jaringan yang berfungsi sebagai perluasan jar
 Dengan Adanya Accespoint semua client yang terconnect di Accespoint tersebut akan mendapatkan Ip langsung dari router pusat sehingga client" yang tersambung ke Accespoint bisa dikelola langsung oleh router pusat
 
 ### Topologi
+
+### login ke webfig TP Link
+
+buka browser, dan masuk ke http://tplinkwifi.net atau masukkan IP 192.168.0.1 (keterangan ini tertulis /tertempel di router), kemudian Masukkan Username dan password defaultnya (admin – lihat di belakang device).
+
+### Kemudian klik Next pada halaman Quick Setup
+
+### Dan pada pilihan Operation Mode pilih Access Point
+
+### Lalu pada bagian Wireless buat nama SSID/Wifi dan Password yang diinginkan, kemudian Next
+
+### Kemudian pada Networking Setting
+
+* LAN Type : Static IP
+* IP Address : Sesuaikan dengan IP Jaringan
+* Subnet Mask : 255.255.255.0
+* DHCP Server : Disable agar mendapatkan IP dari Modem utama lalu
+
+Gg
