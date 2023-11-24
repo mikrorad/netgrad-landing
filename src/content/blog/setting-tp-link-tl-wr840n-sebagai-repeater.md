@@ -1,5 +1,5 @@
 ---
-title: Setting TP-Link TL-WR840N Sebagai Repeater
+title: Setting TP-Link Sebagai Repeater
 date: 2023-11-07T01:19:41.298Z
 summary: Mau tau cara setting mode repeaternya?mari klik linknya
 draft: false
