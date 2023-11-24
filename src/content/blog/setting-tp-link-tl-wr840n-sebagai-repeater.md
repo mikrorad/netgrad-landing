@@ -7,6 +7,7 @@ tags:
   - dhcp
   - layer-3-protocol
   - tp-link
+  - wifi
 ---
 ### Apa itu repeater?
 
