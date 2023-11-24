@@ -1,5 +1,5 @@
 ---
-title: "Setting Tp Link WR840N Sebagai Accespoint "
+title: "Setting Tp Link  Sebagai Accespoint "
 date: 2023-11-23T03:38:05.477Z
 summary: Ingin tahu cara konfigurasi nya?ayo klik linknya
 draft: false
