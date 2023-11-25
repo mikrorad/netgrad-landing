@@ -8,7 +8,11 @@ tags:
 ---
 ### 1.Topologi
 
+![](/images/uploads/img-20231125-wa0010.jpg)
 
+* Server (untuk dns server)
+* Pc(untuk client)
+* Switch (untuk penambah port)
 
 ### 2.Setting IP Address komputer server
 
@@ -34,7 +38,7 @@ Add : untuk menambahkan DNS yang sudah kita setting
 
 ### 4.Setting Ip pada pc client
 
-Selanjutnya setting semua IP address pada PC Client yang terhubung dengan server, klik icon PC > Desktop > IP Configuration lalu setting seperti berikut PC0: 192.168.1.2
+Selanjutnya setting semua IP address pada PC Client yang terhubung dengan server, klik icon PC > Desktop > IP Configuration lalu setting seperti berikut PC0: 192.168.5.3 PC1:192.168.5.2
 
 ### 5.Tes ping ip pc client ke ip dns
 
@@ -42,4 +46,4 @@ Setelah selesai mengatur IP setiap PC, pastikan apakah PC dan dan server sudah t
 
 ### 6.Tes Dns server
 
-. Setelah selesai memberikan IP pada setiap PC yang terhubung dengan server. Selanjutnya kita akan mencoba untuk melakukan tes browsing ke alamat DNS server (ninetekno.com). caranya klik pada salah satu PC → Desktop → Web Browser.
+. Setelah selesai memberikan IP pada setiap PC yang terhubung dengan server. Selanjutnya kita akan mencoba untuk melakukan tes browsing ke alamat DNS server (netgrad.id). caranya klik pada salah satu PC → Desktop → Web Browser.
