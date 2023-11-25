@@ -37,9 +37,9 @@ Selanjutnya setting semua IP address pada PC Client yang terhubung dengan server
 
 ![](/images/uploads/img_20231125_213315.jpg)
 
-![]()
+![](/images/uploads/img-20231125-wa0007.jpg)
 
-![]()
+![](/images/uploads/img-20231125-wa0008.jpg)
 
 ### 5.Tes ping ip pc client ke ip dns
 
