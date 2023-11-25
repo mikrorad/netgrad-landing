@@ -20,27 +20,7 @@ Kemudian setting DNS server. Konfigurasinya juga dilakukan di komputer server, c
 
 
 
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
 Keterangan :
-
-
-
-
 
 DNS service On
 
@@ -50,7 +30,7 @@ Address : gunakan almat IP dari server yang telah kita setting DNS
 
 Add : untuk menambahkan DNS yang sudah kita setting
 
-4. Selanjutnya setting semua IP komputer yang terhubung dengan server, klik icon PC → Desktop → IP Configuration Kemudian setting IP di semua PC yang terkoneksi dengan server. PC0: 192.168.1.2, PC1: 192.168.1.3, PC2: 192.168.1.4.
+
 
 ### 4.Setting Ip pada pc client
 
