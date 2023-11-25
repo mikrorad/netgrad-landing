@@ -22,23 +22,24 @@ cara masuk ke menu server, caranya klik icon server > Desktop > IP Configuration
 
 Kemudian setting DNS server. Konfigurasinya juga dilakukan di komputer server, caranya klik icon server → Services → DNS. Setting seperti pada gambar.
 
-
+![](/images/uploads/img_20231125_213159.jpg)
 
 Keterangan :
 
-DNS service On
-
-Name : masukkan alamat DNS yang akan dipakai
-
-Address : gunakan almat IP dari server yang telah kita setting DNS
-
-Add : untuk menambahkan DNS yang sudah kita setting
-
-
+* DNS service On
+* Name : masukkan alamat DNS yang akan dipakai
+* Address : gunakan almat IP dari server yang telah kita setting DNS
+* Add : untuk menambahkan DNS yang sudah kita setting
 
 ### 4.Setting Ip pada pc client
 
 Selanjutnya setting semua IP address pada PC Client yang terhubung dengan server, klik icon PC > Desktop > IP Configuration lalu setting seperti berikut PC0: 192.168.5.3 PC1:192.168.5.2
+
+![](/images/uploads/img_20231125_213315.jpg)
+
+![]()
+
+![]()
 
 ### 5.Tes ping ip pc client ke ip dns
 
