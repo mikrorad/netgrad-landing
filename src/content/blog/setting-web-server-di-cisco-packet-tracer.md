@@ -45,6 +45,10 @@ Selanjutnya setting semua IP address pada PC Client yang terhubung dengan server
 
 Setelah selesai mengatur IP setiap PC, pastikan apakah PC dan dan server sudah terkoneksi dengan baik atau belum. Caranya dengan melakukan test ping dari  PC- client dengan server. Anda dapat melakukannya di command prompt PC > Desktop > Command Prompt.
 
+![]()
+
+![](/images/uploads/img-20231125-wa0006.jpg)
+
 ### 6.Tes Dns server
 
 . Setelah selesai memberikan IP pada setiap PC yang terhubung dengan server. Selanjutnya kita akan mencoba untuk melakukan tes browsing ke alamat DNS server (netgrad.id). caranya klik pada salah satu PC → Desktop → Web Browser.
