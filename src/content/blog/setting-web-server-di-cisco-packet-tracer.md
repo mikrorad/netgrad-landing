@@ -8,3 +8,13 @@ tags:
   - layer-3-protocol
 ---
 ### 1.Topologi
+
+### 2.Setting IP Address komputer server 
+
+### 3.Setting Dns Server
+
+### 4.Setting Ip pada pc client
+
+### 5.Tes ping ip pc client ke ip dns
+
+### 6.Tes Dns server
