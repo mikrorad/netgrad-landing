@@ -6,9 +6,9 @@ draft: false
 tags:
   - cisco
 ---
-### Apa itu web server?
+### Apa itu DNS server?
 
-### Fungsi web server
+### Fungsi DNS server
 
 ### 1.Topologi
 
