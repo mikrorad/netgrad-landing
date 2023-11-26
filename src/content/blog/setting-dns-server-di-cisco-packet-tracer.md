@@ -34,11 +34,21 @@ untuk mengedit file HTTP nya klik di index.html. setelah membuka index.html hapu
 
 ### 5.Setting Ip pada pc client
 
-Selanjutnya setting semua IP address pada PC Client yang terhubung dengan server, klik icon PC > Desktop > IP Configuration lalu setting seperti berikut PC0: 192.168.1.2
+Selanjutnya setting semua IP address pada PC Client yang terhubung dengan server, klik icon PC > Desktop > IP Configuration lalu setting seperti berikut PC0: 192.168.5.3 PC1: 192.168.5.2
+
+![](/images/uploads/img_20231107_194505.jpg)
+
+![](/images/uploads/img-20231125-wa0008.jpg)
+
+![](/images/uploads/img-20231125-wa0007.jpg)
 
 ### 6.Tes koneksi dengan ping antar pc ke server
 
 Setelah selesai mengatur IP setiap PC, pastikan apakah PC dan dan server sudah terkoneksi dengan baik atau belum. Caranya dengan melakukan test ping dari  PC- client dengan server. Anda dapat melakukannya di command prompt PC > Desktop > Command Prompt.
+
+![]()
+
+![]()
 
 ### 7.Tes web server
 
