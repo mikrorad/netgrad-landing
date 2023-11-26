@@ -8,7 +8,11 @@ tags:
 ---
 ### Apa itu DNS server?
 
-### Fungsi DNS server
+DNS adalah server yang bisa melayani permintaan untuk mengetahui sebuah IP address yang digunakan oleh suatu domain. Permisalan mudahnya , saat anda ingin mengakses facebook.com maka server DNS yang akan mencari IP address dari facebook sehingga komputer anda dapat mengakses facebook
+
+### Fungsi DNS server 
+
+Untuk mengubah atau menerjemahkan hostname (nama) website ke ip website sehingga client tidak perlu mengetik ip website yang dituju tapi cukup mengetik nama website nya saja
 
 ### 1.Topologi
 
