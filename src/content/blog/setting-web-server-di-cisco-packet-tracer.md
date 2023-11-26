@@ -28,7 +28,7 @@ cara masuk ke menu server, caranya klik icon server > Desktop > IP Configuration
 
 ![](/images/uploads/cpt-05.jpg)
 
-![]()
+![](/images/uploads/img_20231126_131340.jpg)
 
 ### 3.Setting Dns Server
 
