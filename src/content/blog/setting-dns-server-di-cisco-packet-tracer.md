@@ -6,11 +6,19 @@ draft: false
 tags:
   - layer-3-protocol
 ---
+### Apa itu web server?
+
+Web server adalah sebuah software (perangkat lunak) yang memberikan layanan berupa data yang berbentuk halaman website. Berfungsi untuk menerima permintaan HTTP atau HTTPS dari klien atau kita kenal dengan web browser (Chrome, google dll). Selanjutnya ia akan mengirimkan respon atas permintaan tersebut kepada client dalam bentuk halaman web.
+
+### FungsFungsi Web server
+
+Fungsi utama dari web server adalah melayani request dari para client dalam berbentuk halaman website seperti http dan https
+
 ### 1.Topologi
 
 ![](/images/uploads/img-20231125-wa0010.jpg)
 
-### 2.Setting IP Address komputer server 
+### 2.Setting IP Address komputer server
 
 Setting IP Address komputer server 
 
@@ -32,7 +40,7 @@ Selanjutnya setting semua IP address pada PC Client yang terhubung dengan server
 
 Setelah selesai mengatur IP setiap PC, pastikan apakah PC dan dan server sudah terkoneksi dengan baik atau belum. Caranya dengan melakukan test ping dari  PC- client dengan server. Anda dapat melakukannya di command prompt PC > Desktop > Command Prompt.
 
-### 7.Tes web server 
+### 7.Tes web server
 
 Terakhir tes apakah web server berhasil atau tidak dengan cara klik pada PC client > Desktop > Web Browser kemudian  masukkan IP address komputer server, berikut hasilnya.
 
