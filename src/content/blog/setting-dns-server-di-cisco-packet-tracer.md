@@ -46,12 +46,16 @@ Selanjutnya setting semua IP address pada PC Client yang terhubung dengan server
 
 Setelah selesai mengatur IP setiap PC, pastikan apakah PC dan dan server sudah terkoneksi dengan baik atau belum. Caranya dengan melakukan test ping dari  PC- client dengan server. Anda dapat melakukannya di command prompt PC > Desktop > Command Prompt.
 
-![]()
+![](/images/uploads/img_20231125_214127.jpg)
 
-![]()
+![](/images/uploads/img-20231125-wa0006.jpg)
 
 ### 7.Tes web server
 
 Terakhir tes apakah web server berhasil atau tidak dengan cara klik pada PC client > Desktop > Web Browser kemudian  masukkan IP address komputer server, berikut hasilnya.
+
+![]()
+
+![](/images/uploads/img-20231125-wa0005.jpg)
 
 > Sekian tutorial singkatnya untuk konfigurasi web server dengan Cisco Packet Tracer, semoga bermanfaat dan terimakasih.
