@@ -28,9 +28,13 @@ cara masuk ke menu server, caranya klik icon server > Desktop > IP Configuration
 
 setelah selesai memberikan IP server, selanjutnya kita akan membuat HTTP nya. masih di menu server, pilih services > HTTP seperti gambar berikut. pastikan HTTP dalam posisi On. 
 
+![](/images/uploads/img_20231126_125622.jpg)
+
 ### 4.Mengedit file html
 
 untuk mengedit file HTTP nya klik di index.html. setelah membuka index.html hapus semua HTML yang ada, kemudian kreasikan sendiri file HTML nya sesuai selera anda. contoh singkat seperti pada gambar berikut. Kemudian tutup jika sudah selesai.
+
+![](/images/uploads/img_20231126_125704.jpg)
 
 ### 5.Setting Ip pada pc client
 
