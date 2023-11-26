@@ -30,6 +30,10 @@ Setting IP Address komputer server
 
 cara masuk ke menu server, caranya klik icon server > Desktop > IP Configuration. Atur IP nya seperti gambar berikut.
 
+![](/images/uploads/cpt-05.jpg)
+
+![](/images/uploads/img_20231126_131340.jpg)
+
 ### 3.Konfigurasi http server
 
 setelah selesai memberikan IP server, selanjutnya kita akan membuat HTTP nya. masih di menu server, pilih services > HTTP seperti gambar berikut. pastikan HTTP dalam posisi On. 
@@ -64,7 +68,7 @@ Setelah selesai mengatur IP setiap PC, pastikan apakah PC dan dan server sudah t
 
 Terakhir tes apakah web server berhasil atau tidak dengan cara klik pada PC client > Desktop > Web Browser kemudian  masukkan IP address komputer server, berikut hasilnya.
 
-![]()
+![](/images/uploads/cpt-17.jpg)
 
 ![](/images/uploads/img-20231125-wa0005.jpg)
 
