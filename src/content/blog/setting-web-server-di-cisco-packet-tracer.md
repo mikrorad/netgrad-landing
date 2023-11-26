@@ -8,7 +8,7 @@ tags:
 ---
 ### Apa itu DNS server?
 
-DNS adalah server yang bisa melayani permintaan untuk mengetahui sebuah IP address yang digunakan oleh suatu domain. Permisalan mudahnya , saat anda ingin mengakses facebook.com maka server DNS yang akan mencari IP address dari facebook sehingga komputer anda dapat mengakses facebook
+DNS adalah server yang bisa melayani permintaan untuk mengetahui sebuah IP address yang digunakan oleh suatu domain. Permisalan mudahnya , saat anda ingin mengakses google.com maka server DNS yang akan mencari IP address dari facebook sehingga komputer anda dapat mengakses Google.com
 
 ### Fungsi DNS server 
 
