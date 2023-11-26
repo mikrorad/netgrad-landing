@@ -6,6 +6,8 @@ draft: false
 tags:
   - layer-3-protocol
 ---
+* ### Ser
+
 ### Apa itu web server?
 
 Web server adalah sebuah software (perangkat lunak) yang memberikan layanan berupa data yang berbentuk halaman website. Berfungsi untuk menerima permintaan HTTP atau HTTPS dari klien atau kita kenal dengan web browser (Chrome, google dll). Selanjutnya ia akan mengirimkan respon atas permintaan tersebut kepada client dalam bentuk halaman web.
@@ -17,6 +19,10 @@ Fungsi utama dari web server adalah melayani request dari para client dalam berb
 ### 1.Topologi
 
 ![](/images/uploads/img-20231125-wa0010.jpg)
+
+* Server (untuk web server)
+* Switch (untuk penambah port ke server)
+* Pc (sebagai client)
 
 ### 2.Setting IP Address komputer server
 
