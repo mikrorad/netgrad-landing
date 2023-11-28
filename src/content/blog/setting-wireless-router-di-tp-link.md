@@ -14,6 +14,8 @@ tags:
 
 Setelah konek buka browser, dan masuk ke http://tplinkwifi.net atau masukkan IP 192.168.0.1 (keterangan ini tertulis /tertempel di router), kemudian Masukkan Username dan password defaultnya (admin – lihat di belakang device).
 
+![](/images/uploads/100-06-tplink-tl-wr840n-wisp.png)
+
 ### Pada Quick Setup pilih Mode Wireless Router
 
 ![](/images/uploads/img_20231128_123923.jpg)
@@ -32,7 +34,7 @@ Setelah konek buka browser, dan masuk ke http://tplinkwifi.net atau masukkan IP 
 
 ### Save untuk menyimpan,selesai
 
-![]()
+![](/images/uploads/img_20231128_123838.jpg)
 
 ### tunggu hingga rebooting/restart selesai
 
