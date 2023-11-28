@@ -34,7 +34,7 @@ Setelah konek buka browser, dan masuk ke http://tplinkwifi.net atau masukkan IP 
 
 ### Pada Mac Clone pilih saja No, I do NOT need clone mac address
 
-![]()
+![](/images/uploads/3.-pilih-no-i-do-not-need-cloe-mac-address.jpg)
 
 ### Masukan SSID Wifi kamu dan jangan lupa berikan password, lalu Next
 
