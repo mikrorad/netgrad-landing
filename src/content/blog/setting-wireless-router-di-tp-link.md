@@ -16,11 +16,11 @@ Setelah konek buka browser, dan masuk ke http://tplinkwifi.net atau masukkan IP 
 
 ### Pada Quick Setup pilih Mode Wireless Router
 
-![]()
+![](/images/uploads/img_20231128_123923.jpg)
 
 ### Pilih Dynamic IP pada WAN Connection Type (agar mendapatkan IP DHCP dari modem ISP secara otomatis)
 
-![]()
+![](/images/uploads/img_20231128_123523.jpg)
 
 ### Pada Mac Clone pilih saja No, I do NOT need clone mac address
 
@@ -28,7 +28,7 @@ Setelah konek buka browser, dan masuk ke http://tplinkwifi.net atau masukkan IP 
 
 ### Masukan SSID Wifi kamu dan jangan lupa berikan password, lalu Next
 
-![]()
+![](/images/uploads/img_20231128_123807.jpg)
 
 ### Save untuk menyimpan,selesai
 
