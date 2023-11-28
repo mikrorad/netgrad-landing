@@ -18,7 +18,7 @@ Wireless router memiliki fungsi seperti server  sehingga bisa membuat jaringan n
 
 ### 1.topologi
 
-![]()
+![](/images/uploads/screenshot_2023-11-28-19-40-28-18_ee92dd2796c5abdb79ebb8cb6a3579d6.jpg)
 
 ### login ke webfig TP Link
 
