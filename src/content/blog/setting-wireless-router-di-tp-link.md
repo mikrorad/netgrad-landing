@@ -9,3 +9,5 @@ tags:
   - wifi
 ---
 ### 1.topologi
+
+### menyambungkan device ke TP link
