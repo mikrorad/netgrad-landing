@@ -8,7 +8,15 @@ tags:
   - tp-link
   - wifi
 ---
+### Apa itu wireless Router?
+
+### Kenapa sih haru wireless router ?
+
+
+
 ### 1.topologi
+
+![]()
 
 ### login ke webfig TP Link
 
