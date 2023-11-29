@@ -41,4 +41,6 @@ buka browser, dan masuk ke http://tplinkwifi.net atau masukkan IP 192.168.0.1 (k
 
 ![](/images/uploads/img_20231129_212252.jpg)
 
+> Noted: untuk description diisi terserah (jangan dikosongi)
+
 Konfigurasi Blacklist pada Tp-Link telah berhasil
