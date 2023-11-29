@@ -12,13 +12,15 @@ tags:
 
 Konesikan device (laptop atau hp)yang mau dipakai untuk setting dengan Device nya, default nama wifi  TP-Link TL-WR840N biasanya bernama TP-LINK_788C, silahkan cari Wifi SSID yang bernama TP-LINK_788C, kemudian masuk dengan password default dari device. (password default  tertulis/tertempel dibelakang device )
 
+![](/images/uploads/img20231121090016.jpg)
+
 ### login ke webfig TP Link
 
-![]()
+![](/images/uploads/100-06-tplink-tl-wr840n-wisp.png)
 
 ### Setelah itu langsung saja klik ke menu Wireless dan pilih Wireless MAC Filter
 
-![]()
+![](/images/uploads/img_20231129_212025.jpg)
 
 ### Mengaktifkan Fitur Whitelist
 
