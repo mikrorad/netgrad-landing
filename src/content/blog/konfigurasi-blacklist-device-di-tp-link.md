@@ -16,7 +16,7 @@ tags:
 
 buka browser, dan masuk ke http://tplinkwifi.net atau masukkan IP 192.168.0.1 (keterangan ini tertulis /tertempel di router), kemudian Masukkan Username dan password defaultnya (admin – lihat di belakang device).
 
-![]()
+![](/images/uploads/100-06-tplink-tl-wr840n-wisp.png)
 
 ### Setelah itu langsung saja klik ke menu Wireless dan pilih Wireless MAC Filter
 
