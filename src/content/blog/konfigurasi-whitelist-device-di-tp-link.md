@@ -24,19 +24,21 @@ Konesikan device (laptop atau hp)yang mau dipakai untuk setting dengan Device ny
 
 ### Mengaktifkan Fitur Whitelist
 
-![]()
+![](/images/uploads/img_20231129_214728.jpg)
 
 * Klik Enable untuk mengaktifkan fitur ini.
 * Pada filtering Rules pilih Allow
 
 ### Selanjutnya pilih  Addnew
 
-![]()
+![](/images/uploads/img_20231129_214855.jpg)
 
 ### Memasukan mac address yang akan di whitelist
 
-![]()
+![](/images/uploads/img_20231129_214821.jpg)
 
 * Masukkan daftar MAC address yang diizinkan bisa terhubung.
 * Jangan lupa pada bagian status pilih Enabled.
-* Terakhir tinggal klik Save.
+* Terakhir tinggal klik Save
+
+konfigurasi Whitelist pada tp link telah berhasil
