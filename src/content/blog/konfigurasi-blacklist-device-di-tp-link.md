@@ -20,25 +20,25 @@ buka browser, dan masuk ke http://tplinkwifi.net atau masukkan IP 192.168.0.1 (k
 
 ### Setelah itu langsung saja klik ke menu Wireless dan pilih Wireless MAC Filter
 
-![]()
+![](/images/uploads/img_20231129_212025.jpg)
 
 ### Mengaktifkan Fitur Blacklist
 
 * Klik Enable untuk mengaktifkan fitur ini
 * Pada filtering Rules pilih Deny
 
-![]()
+![](/images/uploads/img_20231129_212120.jpg)
 
 ### Memasukan mac address device yang ingin di blokir
 
 * Selanjutnya pilih  Addnew
 
-![]()
+![](/images/uploads/img_20231129_212203.jpg)
 
 * Selanjutnya masukkan MAC Address pengguna yang ingin di blokir agar tidak dapat terkoneksi.
 * Pada bagian status Klik Enable.
 * Terakhir Klik Save.
 
-![]()
+![](/images/uploads/img_20231129_212252.jpg)
 
 Konfigurasi Blacklist pada Tp-Link telah berhasil
