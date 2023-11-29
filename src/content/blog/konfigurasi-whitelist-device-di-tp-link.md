@@ -5,6 +5,36 @@ summary: Ingin tahu cara konfigurasinya?mari kunjungi website ini
 draft: false
 tags:
   - wifi
-  - tp-link
 ---
 ### Topologi
+
+### menyambungkan device ke TP link
+
+Konesikan device (laptop atau hp)yang mau dipakai untuk setting dengan Device nya, default nama wifi  TP-Link TL-WR840N biasanya bernama TP-LINK_788C, silahkan cari Wifi SSID yang bernama TP-LINK_788C, kemudian masuk dengan password default dari device. (password default  tertulis/tertempel dibelakang device )
+
+### login ke webfig TP Link
+
+![]()
+
+### Setelah itu langsung saja klik ke menu Wireless dan pilih Wireless MAC Filter
+
+![]()
+
+### Mengaktifkan Fitur Whitelist
+
+![]()
+
+* Klik Enable untuk mengaktifkan fitur ini.
+* Pada filtering Rules pilih Allow
+
+### Selanjutnya pilih  Addnew
+
+![]()
+
+### Memasukan mac address yang akan di whitelist
+
+![]()
+
+* Masukkan daftar MAC address yang diizinkan bisa terhubung.
+* Jangan lupa pada bagian status pilih Enabled.
+* Terakhir tinggal klik Save.
