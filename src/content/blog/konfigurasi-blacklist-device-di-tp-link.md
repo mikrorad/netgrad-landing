@@ -39,7 +39,7 @@ buka browser, dan masuk ke http://tplinkwifi.net atau masukkan IP 192.168.0.1 (k
 * Pada bagian status Klik Enable.
 * Terakhir Klik Save.
 
-![](/images/uploads/img_20231129_212252.jpg)
+![](/images/uploads/img_20231129_212913.jpg)
 
 > Noted: untuk description diisi terserah (jangan dikosongi)
 
