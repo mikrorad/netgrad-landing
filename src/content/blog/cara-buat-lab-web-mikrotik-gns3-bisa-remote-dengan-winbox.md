@@ -100,3 +100,11 @@ Pilih VM gns3 kalian kemudian click settings.
 Kemudian pilih Network kemudian ganti dropdown `NAT` menjadi `Bridged Adapter`
 
 ![](/images/uploads/frame-19.png)
+
+### 9. Langsung Mulai dan Gunakan GNS3 Web
+Kalian bisa langsung click start dan gunakan GNS3 Web sesuka kalian.
+
+### 8. Cara Gunakan GNS3 Web
+Kalian bisa langsung buka IP dari virtual machine kalian di browser kalian.
+Untuk mengetahui IP dari Virtual machine kalian kalian bisa buka dhcp lease di router  kalian.
+
