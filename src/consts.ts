@@ -15,6 +15,7 @@ export const SITE_METADATA = {
   siteRepo: '',
   siteLogo: '/static/images/logo.png',
   locale: 'id-ID',
+  context: process.env.CONTEXT || 'development',
 };
 
 /**
