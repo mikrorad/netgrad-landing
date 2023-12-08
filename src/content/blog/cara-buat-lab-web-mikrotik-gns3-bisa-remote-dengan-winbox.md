@@ -69,7 +69,7 @@ Kemudian click next
 
 ![](/images/uploads/screenshot-from-2023-12-08-18-18-19.png)
 
-## 6. Pilih Disk Image GNS3 `ubuntu.vdi` Hasil extract.
+### 6. Pilih Disk Image GNS3 `ubuntu.vdi` Hasil extract.
 
 Pertama kalian click \*icon\* folder di kanan
 
@@ -82,3 +82,20 @@ Kemudian click add
 Lalu cari dan pilih file `ubuntu.vdi` yang kalian extract tadi.
 
 ![](/images/uploads/screenshot-from-2023-12-08-18-28-16.png)
+
+Setelah kalian pilih. langsung click next aja.
+
+### 7. Finish
+
+Setelah itu kalian bisa langsung click finish. 
+
+### 8. Setting network
+
+Sebelum kalian mulai gunakan GNS3 kalian harus setting network VM supaya bisa di akses oleh komputer kalian.
+
+Pilih VM gns3 kalian kemudian click settings.
+
+![](/images/uploads/frame-18.png)
+
+Kemudian pilih Network kemudian ganti dropdown `NAT` menjadi `Bridged Adapter`
+
