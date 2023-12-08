@@ -5,6 +5,7 @@ summary: Ingin tahu cara konfigurasinya?mari kunjungi website ini
 draft: false
 tags:
   - wifi
+  - tp-link
 ---
 ### Topologi
 
