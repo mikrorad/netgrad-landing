@@ -35,7 +35,7 @@ Langsung klik download. Kemudian bakal muncul popup download file dengan nama `g
 
 ## 2. Extract 7z
 
-Extract file `gns3.7z` menggunakan program seperti Winrar atau 7zip.
+Extract file `gns3.7z` menggunakan program seperti Winrar atau 7zip. Ketika kalian *extract* file `gns3.7z` akan mengeluarkan file di dalamnya yaitu `ubuntu.vdi`. Ini akan kita gunakan nanti.
 
 ## 3. Install Virtual Box
 
@@ -65,4 +65,20 @@ Kemudian langsung click next
 
 Kemudian Kalian harus beri virtual machine ini RAM dan CPU. Supaya GNS3 jalan dengan lancar gunakan RAM sebanyak 6GB dan CPU sebanyak 3 core.
 
+Kemudian click next
+
 ![](/images/uploads/screenshot-from-2023-12-08-18-18-19.png)
+
+## 6. Pilih Disk Image GNS3 `ubuntu.vdi` Hasil extract.
+
+Pertama kalian click \*icon\* folder di kanan
+
+![](/images/uploads/frame-16.png)
+
+Kemudian click add
+
+![](/images/uploads/frame-17.png)
+
+Lalu cari dan pilih file `ubuntu.vdi` yang kalian extract tadi.
+
+![](/images/uploads/screenshot-from-2023-12-08-18-28-16.png)
