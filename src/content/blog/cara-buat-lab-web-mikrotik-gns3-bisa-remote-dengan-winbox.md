@@ -128,6 +128,6 @@ Kemudian masukkan IP gns3 kalian ke winbox menggunakan username `tiktok` passwor
 
 ![](/images/uploads/frame-21.png)
 
-Setelah itu kalian bisa pilih router kalian di menu \`ROMON Neighbour\`. Kemudian dengan username \`tiktok\` dan password kosong, kalian bisa langsung remote Mikrotik yang ada  di simulasi.
+Setelah itu kalian bisa pilih router kalian di menu `ROMON Neighbour`. Kemudian dengan username `tiktok` dan password kosong, kalian bisa langsung remote Mikrotik yang ada  di simulasi.
 
 ![](/images/uploads/frame-22.png)
