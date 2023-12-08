@@ -1,5 +1,5 @@
 ---
-title: "Pengen Belajar Mikrotik tapi Gak Punya Mikrotik?. Coba GNS3 Web."
+title: "Pengen Belajar Mikrotik tapi Gak Punya Mikrotik? Coba GNS3 Web."
 date: 2023-12-08T16:13:11.402Z
 summary: Cara install web GNS3 buat belajar mikrotik tanpa harus beli mikrotik.
 draft: false
