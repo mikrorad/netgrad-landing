@@ -33,11 +33,11 @@ Langsung klik download. Kemudian bakal muncul popup download file dengan nama `g
 
 ![download popup](/images/uploads/screenshot-from-2023-12-08-17-43-04.png)
 
-## 2. Extract 7z
+### 2. Extract 7z
 
 Extract file `gns3.7z` menggunakan program seperti Winrar atau 7zip. Ketika kalian *extract* file `gns3.7z` akan mengeluarkan file di dalamnya yaitu `ubuntu.vdi`. Ini akan kita gunakan nanti.
 
-## 3. Install Virtual Box
+### 3. Install Virtual Box
 
 Di [tutorial sebelumnya](https://www.tiktok.com/@ghibran_jaringan/video/7271003638334573829) sudah ada bagian dimana cara cara install Virtualbox Dijelaskan.
 
@@ -48,14 +48,14 @@ Kemudian click windows host.
 
 Kemudian kalian bisa install seperti program biasa.
 
-## 4. Buka VirtualBox
+### 4. Buka VirtualBox
 
 Setelah kalian install virtualbox di komputer kalian, kalian bisa buka.
 Setelah kalian tambah virtual machine baru dengan click tombol new
 
 ![](/images/uploads/frame-15-1-.png)
 
-## 5. Install Virtual Machine GNS Web
+### 5. Install Virtual Machine GNS Web
 
 Namakan Virtual machine kalian sesuka hati, di tutorial ini virtual machine akan dinamakan gns3.
 
