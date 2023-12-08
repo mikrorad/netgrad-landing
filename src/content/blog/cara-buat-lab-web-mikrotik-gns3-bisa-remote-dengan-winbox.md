@@ -27,13 +27,13 @@ Ayo kita langsung mulai saja.
 
 ![download link di google drive](/images/uploads/screenshot-from-2023-12-08-17-44-52.png "download google drive")
 
-Langsung klik download. Kemudian bakal muncul popup download file dengan nama \`gns3.7z\`
+Langsung klik download. Kemudian bakal muncul popup download file dengan nama `gns3.7z`
 
 ![download popup](/images/uploads/screenshot-from-2023-12-08-17-43-04.png)
 
 ## 2. Extract 7z
 
-Extract file \`gns3.7z\` menggunakan program seperti Winrar atau 7z
+Extract file `gns3.7z` menggunakan program seperti Winrar atau 7z
 
 ## 3. Install Virtual Box
 
