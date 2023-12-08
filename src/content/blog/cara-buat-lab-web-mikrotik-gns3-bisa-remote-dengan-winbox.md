@@ -117,3 +117,5 @@ Langsung buka di browser dengan link `http://[ip gns3]`
 
 Kemudian untuk tambah router kalian bisa click + diatas kemudian drag and drop mikrotik yang kalian inginkan.
 
+Kemudian kalian bisa gunakan GNS3 seperti Ghibran Jaringan di Tiktok.
+
