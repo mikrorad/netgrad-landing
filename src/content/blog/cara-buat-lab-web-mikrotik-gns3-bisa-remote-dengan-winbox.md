@@ -22,6 +22,7 @@ Tutorial ini akan lebih mudah dari sebelumnya. Ini dikarenakan di tutorial ini a
 Ayo kita langsung mulai saja.
 
 ### 1. Download Gns3 Web Virtual Machine Image
+<iframe src="https://drive.google.com/embeddedfolderview?id=1PKwBs20VBE7-TlLLZzS6BYjeJlfMnfWA#list" style="width:100%; height:600px; border:0;"></iframe>
 
 [Klik disini](https://drive.google.com/file/d/12YSOH_iFpJvNcKnA8SyAiTyQN9dqilUr/view?usp=sharing) untuk download image virtual box 
 
@@ -40,7 +41,13 @@ Extract file `gns3.7z` menggunakan program seperti Winrar atau 7zip.
 Di [tutorial sebelumnya](https://www.tiktok.com/@ghibran_jaringan/video/7271003638334573829) sudah ada bagian dimana cara cara install Virtualbox Dijelaskan.
 
 Singkatnya kalian harus download virtualbox [disini](https://www.virtualbox.org/wiki/Downloads).
-Kemudian click windows host 
+Kemudian click windows host.
 
 ![windows host  screenshot](/images/uploads/screenshot-from-2023-12-08-17-53-35.png)
+
+Kemudian kalian bisa install seperti program biasa.
+
+## 4. Buka VirtualBox
+Setelah kalian install virtualbox di komputer kalian, kalian bisa buka.
+Setelah kalian buka kalian bisa 
 
