@@ -19,3 +19,4 @@ Tutorial ini akan lebih mudah dari sebelumnya. Ini dikarenakan di tutorial ini a
 
 Ayo kita langsung mulai saja.
 ### 1. Download Gns3 Web Virtual Machine Image
+[Klik disini](https://drive.google.com/file/d/12YSOH_iFpJvNcKnA8SyAiTyQN9dqilUr/view?usp=sharing) untuk download image virtual box 
