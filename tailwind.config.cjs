@@ -1,8 +1,14 @@
-const colors = require('tailwindcss/colors')
+import colors from 'tailwindcss/colors';
+import preline from 'preline/plugin.js';
+import forms from '@tailwindcss/forms';
+import typography from '@tailwindcss/typography';
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
+    content: [
+        './src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}',
+        'node_modules/preline/dist/*.js',
+    ],
     darkMode: ['class', '[data-mode="niga"]'],
     theme: {
         extend: {
@@ -55,5 +61,5 @@ module.exports = {
             }),
         },
     },
-    plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography'), require('preline/plugin')],
+    plugins: [preline, forms, typography, colors],
 }
