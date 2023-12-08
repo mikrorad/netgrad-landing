@@ -99,3 +99,4 @@ Pilih VM gns3 kalian kemudian click settings.
 
 Kemudian pilih Network kemudian ganti dropdown `NAT` menjadi `Bridged Adapter`
 
+![](/images/uploads/frame-19.png)
