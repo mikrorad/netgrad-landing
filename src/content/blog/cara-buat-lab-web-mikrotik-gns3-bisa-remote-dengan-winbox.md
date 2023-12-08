@@ -1,5 +1,5 @@
 ---
-title: Pengen Belajar Mikrotik tapi Gak Punya?. Coba GNS3 Web
+title: Pengen Belajar Mikrotik tapi Gak Punya?. Coba GNS3 Web.
 date: 2023-12-08T16:13:11.402Z
 summary: Buat lab yang biasa digunakan oleh Ghibran Jaringan di tutorial
 draft: false
@@ -8,6 +8,15 @@ tags:
   - remote-jarak-jauh
 ---
 Di tutorial [Ghibran Jaringan](https://www.tiktok.com/@ghibran_jaringan) sering kali lab mikrotik dalam bentuk web digunakan. Web ini asalnya adalah GNS3 Web yang sudah di modifikasi supaya bisa di remote manggunakan Winbox supaya mudah digunakan. Modifikasi ini dilakukak oleh saya (ghibran jaringan) sendiri.
+
+## GNS Web
+
+GNS3 Web adalah interface GNS3 yang bisa dibuka menggunakan browser. 
+Dibawah ini adalah beberapa screenshot GNS3 Web:
+
+![](/images/uploads/screenshot-from-2023-12-08-20-38-08.png)
+
+Bisa dilihat, menggunakan GNS3 kita bisa bereksperimen dengan jaringan kompleks tanpa harus memiliki alat jaringan atau Mikrotik sama sekali.
 
 ## Tutorial Install GNS3 Web Sebelumnya
 
