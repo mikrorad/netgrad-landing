@@ -9,5 +9,5 @@ import solidJs from "@astrojs/solid-js";
 // https://astro.build/config
 export default defineConfig({
   site: SITE_METADATA.siteUrl,
-  integrations: [mdx(), sitemap(), tailwind(), solidJs()]
+  integrations: [mdx(), sitemap(), tailwind(), solidJs()],
 });
