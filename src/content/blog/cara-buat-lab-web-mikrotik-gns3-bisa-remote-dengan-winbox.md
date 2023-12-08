@@ -25,7 +25,7 @@ Ayo kita langsung mulai saja.
 
 [Klik disini](https://drive.google.com/file/d/12YSOH_iFpJvNcKnA8SyAiTyQN9dqilUr/view?usp=sharing) untuk download image virtual box 
 
-![download link di google drive](/images/uploads/screenshot-from-2023-12-08-17-37-52.png "download google drive")
+![download link di google drive](/images/uploads/screenshot-from-2023-12-08-17-44-52.png "download google drive")
 
 Langsung klik download. Kemudian bakal muncul popup download file dengan nama \`gns3.7z\`
 
