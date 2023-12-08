@@ -7,7 +7,6 @@ tags:
   - mikrotik
   - remote-jarak-jauh
 ---
-
 Di tutorial [Ghibran Jaringan](https://www.tiktok.com/@ghibran_jaringan) sering kali lab mikrotik dalam bentuk web digunakan. Web ini asalnya adalah GNS3 Web yang sudah di modifikasi supaya bisa di remote manggunakan Winbox supaya mudah digunakan. Modifikasi ini dilakukak oleh saya (ghibran jaringan) sendiri.
 
 ## Tutorial Install GNS3 Web Sebelumnya
@@ -106,7 +105,7 @@ Kemudian pilih Network kemudian ganti dropdown `NAT` menjadi `Bridged Adapter`
 
 Kalian bisa langsung click start dan gunakan GNS3 Web sesuka kalian.
 
-### 8. Cara Gunakan GNS3 Web
+### 10. Cara Gunakan GNS3 Web
 
 Kalian bisa langsung buka IP dari virtual machine kalian di browser kalian.
 Untuk mengetahui IP dari Virtual machine kalian kalian bisa buka dhcp lease di router  kalian.
@@ -119,3 +118,12 @@ Kemudian untuk tambah router kalian bisa click + diatas kemudian drag and drop m
 
 Kemudian kalian bisa gunakan GNS3 seperti Ghibran Jaringan di Tiktok.
 
+### 11. Remote Mikrotik di GNS3 Menggunakan Winbox
+
+Pertama kalian harus sambungkan mikrotik dengan cloud `internet`
+
+![](/images/uploads/screenshot-from-2023-12-08-20-06-17.png)
+
+Kemudian masukkan IP gns3 kalian ke winbox menggunakan username `tiktok` password kosong kemudian click **CONNECT TO ROMON**
+
+![](/images/uploads/frame-21.png)
