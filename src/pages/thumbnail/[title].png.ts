@@ -89,8 +89,8 @@ export async function GET({params, props}: APIContext) {
     const svg = await satori(
       html,
       {
-        width: 1200,
-        height: 630,
+        width: 1000,
+        height: 600,
         fonts: [
           {
             name: "Roboto",
