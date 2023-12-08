@@ -1,5 +1,5 @@
 ---
-title: Lab Web Mikrotik GNS3 yang Bisa Diremote Dengan Winbox
+title: Lab Mikrotik GNS3 yang Digunakan Ghibran Jaringan
 date: 2023-12-08T16:13:11.402Z
 summary: Buat lab yang biasa digunakan oleh Ghibran Jaringan di tutorial
 draft: false
