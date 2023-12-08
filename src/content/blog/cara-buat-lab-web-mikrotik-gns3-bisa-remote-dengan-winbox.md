@@ -17,7 +17,7 @@ Sebenarnya di profile ghibran jaringan sudah dibuat [tutorial](https://www.tikto
 
 ## Tutorial Baru
 
-Tutorial ini akan lebih mudah dari sebelumnya. Ini dikarenakan di tutorial ini akan disediakan virtual machine yang sudah *ready made* jadi pengguna hanya perlu download kemudian pengguna bisa segera gunakan GNS3 Web nya.
+Tutorial ini akan lebih mudah dari sebelumnya. Ini dikarenakan di tutorial ini akan disediakan virtual machine yang sudah *ready made* jadi kalian hanya perlu download kemudian kalian bisa segera gunakan GNS3 Web nya.
 
 Ayo kita langsung mulai saja.
 
