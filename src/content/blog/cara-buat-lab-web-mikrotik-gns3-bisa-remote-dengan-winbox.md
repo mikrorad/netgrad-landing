@@ -22,6 +22,7 @@ Tutorial ini akan lebih mudah dari sebelumnya. Ini dikarenakan di tutorial ini a
 Ayo kita langsung mulai saja.
 
 ### 1. Download Gns3 Web Virtual Machine Image
+
 <iframe src="https://drive.google.com/embeddedfolderview?id=1PKwBs20VBE7-TlLLZzS6BYjeJlfMnfWA#list" style="width:100%;height: 81px;border:0;" scrolling="no"></iframe>
 
 Langsung click file `gns3.7z` diatas, atau [klik disini](https://drive.google.com/file/d/12YSOH_iFpJvNcKnA8SyAiTyQN9dqilUr/view?usp=sharing) untuk download image virtual box 
@@ -48,6 +49,20 @@ Kemudian click windows host.
 Kemudian kalian bisa install seperti program biasa.
 
 ## 4. Buka VirtualBox
-Setelah kalian install virtualbox di komputer kalian, kalian bisa buka.
-Setelah kalian tambah virtual machine baru dengan click tombol `+`
 
+Setelah kalian install virtualbox di komputer kalian, kalian bisa buka.
+Setelah kalian tambah virtual machine baru dengan click tombol new
+
+![](/images/uploads/frame-15-1-.png)
+
+## 5. Install Virtual Machine GNS Web
+
+Namakan Virtual machine kalian sesuka hati, di tutorial ini virtual machine akan dinamakan gns3.
+
+Kemudian langsung click next
+
+![namakan vm ](/images/uploads/screenshot-from-2023-12-08-18-16-02.png)
+
+Kemudian Kalian harus beri virtual machine ini RAM dan CPU. Supaya GNS3 jalan dengan lancar gunakan RAM sebanyak 6GB dan CPU sebanyak 3 core.
+
+![](/images/uploads/screenshot-from-2023-12-08-18-18-19.png)
