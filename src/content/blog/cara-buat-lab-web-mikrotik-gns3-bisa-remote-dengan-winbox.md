@@ -71,7 +71,7 @@ Kemudian click next
 
 ### 6. Pilih Disk Image GNS3 `ubuntu.vdi` Hasil extract.
 
-Pertama kalian click \*icon\* folder di kanan
+Pertama kalian click *icon* folder di kanan
 
 ![](/images/uploads/frame-16.png)
 
