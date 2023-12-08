@@ -13,16 +13,17 @@ interface Props {
     post: CollectionEntry<'blog'>;
     next?: CollectionEntry<'blog'>;
     prev?: CollectionEntry<'blog'>;
+    slug?: string;
 }
 
-const {post, next, prev} = Astro.props as Props;
+const {post, next, prev, slug} = Astro.props as Props;
 const tags: CollectionEntry<'tags'> = await getEntries(post.data.tags);
 const related: CollectionEntry<'blog'>[] = await getEntries(post.data.related);
 
 // TODO: Later add support for headings and remarkPluginFrontmatter
 const {Content, headings, remarkPluginFrontmatter} = await post.render();
 ---
-<RootLayout title={post.data.title} description={post.data.summary}>
+<RootLayout title={post.data.title} description={post.data.summary} slug={slug}>
     <SectionContainer>
         <ScrollTopAndComments />
         <article>

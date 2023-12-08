@@ -137,7 +137,7 @@ export async function getStaticPaths() {
     },
     {
       title: 'Topik',
-      content: 'Topik Tutorial Netgrad'
+      content: 'List Topik-Topik Tutorial Netgrad'
     }
   ];
 
@@ -151,7 +151,7 @@ export async function getStaticPaths() {
       const content = tag.data.name.replace(/\w\S*/g, (w) => (w.replace(/^\w/, (c) => c.toUpperCase())));
 
       return {
-        title: tag.data.name,
+        title: tag.slug,
         content: `Tutorial Jaringan dari Netgrad tentang ${content}`
       }
     }

@@ -13,7 +13,7 @@ export async function getStaticPaths() {
 
     });  return posts.map((post, index) => ({
         params: {slug: post.slug},
-        props: {post, next: posts[index + 1], prev: posts[index - 1]},
+        props: {post, slug: post.slug, next: posts[index + 1], prev: posts[index - 1] },
     }));
 }
 ---
