@@ -30,3 +30,16 @@ Ayo kita langsung mulai saja.
 Langsung klik download. Kemudian bakal muncul popup download file dengan nama \`gns3.7z\`
 
 ![download popup](/images/uploads/screenshot-from-2023-12-08-17-43-04.png)
+
+## 2. Extract 7z
+
+Extract file \`gns3.7z\` menggunakan program seperti Winrar atau 7z
+
+## 3. Install Virtual Box
+
+Di [tutorial sebelumnya](https://www.tiktok.com/@ghibran_jaringan/video/7271003638334573829) sudah ada bagian dimana cara cara install Virtualbox Dijelaskan.
+
+Singkatnya kalian harus download virtualbox [disini](https://www.virtualbox.org/wiki/Downloads).
+Kemudian click windows host 
+
+![windows host  screenshot](/images/uploads/screenshot-from-2023-12-08-17-53-35.png)
