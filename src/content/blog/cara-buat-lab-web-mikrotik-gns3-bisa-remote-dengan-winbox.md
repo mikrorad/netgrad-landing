@@ -24,7 +24,7 @@ Ayo kita langsung mulai saja.
 ### 1. Download Gns3 Web Virtual Machine Image
 <iframe src="https://drive.google.com/embeddedfolderview?id=1PKwBs20VBE7-TlLLZzS6BYjeJlfMnfWA#list" style="width:100%; height:600px; border:0;"></iframe>
 
-[Klik disini](https://drive.google.com/file/d/12YSOH_iFpJvNcKnA8SyAiTyQN9dqilUr/view?usp=sharing) untuk download image virtual box 
+Langsung click file `gns3.7z`diatas atau [klik disini](https://drive.google.com/file/d/12YSOH_iFpJvNcKnA8SyAiTyQN9dqilUr/view?usp=sharing) untuk download image virtual box 
 
 ![download link di google drive](/images/uploads/screenshot-from-2023-12-08-17-44-52.png "download google drive")
 
