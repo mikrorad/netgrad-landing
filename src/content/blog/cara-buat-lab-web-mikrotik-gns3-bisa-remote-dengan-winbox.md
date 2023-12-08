@@ -15,4 +15,4 @@ Di tutorial [Ghibran Jaringan](https://www.tiktok.com/@ghibran_jaringan) sering 
 Sebenarnya di profile ghibran jaringan sudah dibuat [tutorial](https://www.tiktok.com/@ghibran_jaringan/video/7271003638334573829) yang panjang untuk membuat gns3 web ini dari awal atau *from scratch.* Tetapi dari comment video tersebut ternyata masih banyak orang yang belum berhasil menginstall GNS3 sampai selesai.
 
 ## Tutorial Baru
-Tutorial ini akan lebih mudah dari sebelumnya. Ini dikarenakan 
+Tutorial ini akan lebih mudah dari sebelumnya. Ini dikarenakan di tutorial ini akan disediakan virtual machine yang sudah *ready made* jadi pengguna hanya perlu download kemudian pengguna bisa segera gunakan GNS3 Web nya
