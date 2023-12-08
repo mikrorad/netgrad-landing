@@ -22,7 +22,7 @@ Tutorial ini akan lebih mudah dari sebelumnya. Ini dikarenakan di tutorial ini a
 Ayo kita langsung mulai saja.
 
 ### 1. Download Gns3 Web Virtual Machine Image
-<iframe src="https://drive.google.com/embeddedfolderview?id=1PKwBs20VBE7-TlLLZzS6BYjeJlfMnfWA#list" style="width:100%; height:600px; border:0;"></iframe>
+<iframe src="https://drive.google.com/embeddedfolderview?id=1PKwBs20VBE7-TlLLZzS6BYjeJlfMnfWA#list" style="width:100%;border:0;"></iframe>
 
 Langsung click file `gns3.7z`diatas atau [klik disini](https://drive.google.com/file/d/12YSOH_iFpJvNcKnA8SyAiTyQN9dqilUr/view?usp=sharing) untuk download image virtual box 
 
