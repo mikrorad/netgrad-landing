@@ -1,5 +1,5 @@
 ---
-title: Lab Mikrotik GNS3 yang Digunakan Ghibran Jaringan
+title: Pengen Belajar Mikrotik tapi Gak Punya Mikrotik?. Coba GNS3 Web.
 date: 2023-12-08T16:13:11.402Z
 summary: Buat lab yang biasa digunakan oleh Ghibran Jaringan di tutorial
 draft: false
