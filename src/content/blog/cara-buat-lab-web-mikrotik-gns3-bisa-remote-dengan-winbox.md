@@ -9,4 +9,5 @@ tags:
 ---
 Di tutorial [Ghibran Jaringan](https://www.tiktok.com/@ghibran_jaringan) sering kali lab mikrotik dalam bentuk web digunakan. Web ini asalnya adalah GNS3 Web yang sudah di modifikasi supaya bisa di remote manggunakan Winbox supaya mudah digunakan. Modifikasi ini dilakukak oleh saya (ghibran jaringan) sendiri.
 
-Sebenarnya 
+## Tutorial Sebelumnya
+Sebenarnya di profile ghibran jaringan sudah dibuat [tutorial]() yang panjang untuk membuat 
