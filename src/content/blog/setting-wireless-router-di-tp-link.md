@@ -8,11 +8,11 @@ tags:
   - tp-link
   - wifi
 ---
-### Apa itu wireless Router?
+### Apa itu Wireless Router?
 
 Sebuah Wireless Router merupakan perangkat yang melakukan fungsi router dan juga termasuk fungsi dari wireless access point . Digunakan untuk akses jaringan ke internet dapat berfungsi sebagai jaringan LAN dan Wireless LAN. Meskipun menggunakan jaringan wireless WLAN juga memiliki port LAN yang digunakan untuk jaringan kabel LAN
 
-### Kenapa harus wireless router ?
+### Kenapa Harus Wireless Router ?
 
 Wireless router memiliki fungsi seperti server  sehingga bisa membuat jaringan network baru, memiliki fungsi DHCP Server, Firewall dll. Wireless Router memiliki port WAN yang digunakan untuk menghubungkan jaringan internet dengan jaringan LAN.
 
