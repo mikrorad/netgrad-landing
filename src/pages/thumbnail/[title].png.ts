@@ -68,6 +68,30 @@ export async function GET({ params, props }: APIContext) {
           type: "div",
           props: {
             style: {
+              right: 42,
+              top: 42,
+              position: "absolute",
+              display: "flex",
+              alignItems: "center",
+            },
+            children: [
+              {
+                type: "span",
+                props: {
+                  style: {
+                    marginLeft: 8,
+                    fontSize: 40,
+                  },
+                  children: tutorial ? "Tutorial" : "",
+                },
+              },
+            ],
+          },
+        },
+        {
+          type: "div",
+          props: {
+            style: {
               display: "flex",
               flexWrap: "wrap",
               justifyContent: "center",
@@ -82,16 +106,6 @@ export async function GET({ params, props }: APIContext) {
               lineHeight: 1.4,
             },
             children: [
-              {
-                type: "span",
-                props: {
-                  children: tutorial ? 'Tutorial: ' : ''
-                },
-              },
-              {
-                type: "br",
-                props: {}
-              },
               {
                 type: "span",
                 props: {
@@ -146,6 +160,7 @@ export async function getStaticPaths() {
     {
       title: 'Tutorial',
       content: 'Tutorial Jaringan dari Netgrad'
+
     },
     {
       title: 'Kontak',
