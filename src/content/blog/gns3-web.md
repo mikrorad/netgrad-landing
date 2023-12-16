@@ -146,3 +146,8 @@ Kemudian masukkan IP gns3 kalian ke winbox menggunakan username `tiktok` passwor
 Setelah itu kalian bisa pilih router kalian di menu `ROMON Neighbour`. Kemudian dengan username `tiktok` dan password kosong, kalian bisa langsung remote Mikrotik yang ada  di simulasi.
 
 ![](/images/uploads/frame-22.png)
+
+### 11. Akses Virtual machine
+untuk masuk kedalam shell ubuntu kalian bisa gunakan 
+username: ghibran
+password: ghibran123
