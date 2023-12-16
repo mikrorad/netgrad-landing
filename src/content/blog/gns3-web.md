@@ -151,3 +151,5 @@ Setelah itu kalian bisa pilih router kalian di menu `ROMON Neighbour`. Kemudian 
 untuk masuk kedalam shell ubuntu kalian bisa gunakan 
 username: ghibran
 password: ghibran123
+
+Setelah kalian login, nanti text yang menunjukkan IP gns3 juga akan muncul.
