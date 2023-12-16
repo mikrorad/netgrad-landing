@@ -1,5 +1,5 @@
 ---
-title: "Pengen Banget Belajar Mikrotik tapi Gak Punya? Coba GNS3 Web"
+title: Pengen Banget Belajar Mikrotik tapi Gak Punya? Coba GNS3 Web
 date: 2023-12-08T16:13:11.402Z
 summary: Cara install web GNS3 buat belajar mikrotik tanpa harus beli mikrotik.
 draft: false
@@ -98,7 +98,7 @@ Setelah kalian pilih. langsung click next aja.
 
 Setelah itu kalian bisa langsung click finish. 
 
-### 8. Setting network
+### 8. Setting tambahan
 
 Sebelum kalian mulai gunakan GNS3 kalian harus setting network VM supaya bisa di akses oleh komputer kalian.
 
@@ -109,6 +109,12 @@ Pilih VM gns3 kalian kemudian click settings.
 Kemudian pilih Network kemudian ganti dropdown `NAT` menjadi `Bridged Adapter`
 
 ![](/images/uploads/frame-19.png)
+
+Kemudian supaya kalian bisa buka gns3 kalian harus enable virtualisasi di dalam VM kalian.
+
+Buka menu system, processor di settings. kemudian centang `Enable Nested VT-x/AMD-v`
+
+![](/images/uploads/frame-23.png)
 
 ### 9. Langsung Mulai dan Gunakan GNS3 Web
 
