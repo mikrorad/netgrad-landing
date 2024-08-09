@@ -27,6 +27,6 @@ export const NAVIGATION = [
   { href: '/', title: 'Home' },
   { href: '/tutorial', title: 'Tutorial' },
   { href: '/contact', title: 'Kontak' },
-  { href: 'https://paystaging.netgrad.id/paket', title: "Paket" }
+  { href: 'https://paystaging.netgrad.id/paket', title: "Paket" },
   { href: 'https://app.netgrad.id', title: 'Dashboard' },
 ]
