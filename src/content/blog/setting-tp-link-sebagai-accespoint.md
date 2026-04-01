@@ -5,7 +5,6 @@ summary: Ingin tahu cara konfigurasi nya?ayo klik linknya
 draft: false
 tags:
   - layer-3-protocol
-  - dhcp
   - tp-link
   - wifi
 ---
